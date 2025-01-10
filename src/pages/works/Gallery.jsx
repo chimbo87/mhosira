@@ -3,7 +3,7 @@ import { Spin } from "antd";
 import "./Gallery.css";
 import { BiFilterAlt } from "react-icons/bi";
 import { useNavigate } from "react-router-dom";
-import Products from "../../components/products/ProductData";
+import Products from "../../components/products/Productdata";
 
 function Gallery() {
   const navigate = useNavigate();

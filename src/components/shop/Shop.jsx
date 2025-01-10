@@ -1,6 +1,6 @@
 import React from "react";
 import "./Shop.css";
-import Products from "../../components/products/ProductData";
+import Products from "../../components/products/Productdata";
 import { useNavigate } from "react-router-dom";
 import { FaArrowRightLong } from "react-icons/fa6";
 // Import Swiper React components
