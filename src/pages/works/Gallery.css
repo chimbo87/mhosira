@@ -1,0 +1,113 @@
+
+#gallery-box {
+
+      padding:120px 10px 0px 10px;
+
+}
+#gallery-box-filterbtns{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+  background-color: #f4f3f3;
+  overflow-x: auto;
+  white-space: nowrap;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  width: 100%;
+  padding: 8px 2px;
+}
+
+#gallery-box-filterbtns button{
+padding: 6px 25px;
+border-radius: 4px;
+background-color: #fff;
+color: rgb(105, 105, 104);
+border: 1px solid gainsboro;
+font-family: "Raleway", serif;
+font-weight: 600;
+margin: 0px 5px;
+}
+#gallery-box-filterbtns button:hover {
+  background-color: #1d2f61;
+  color: #f1975b;
+}
+#gallery-box-filterbtns button.active {
+  background-color: #1d2f61;
+  color: #f1975b;
+}
+#shops-terms{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#shops-terms h5{
+  text-align: center;
+  color: #f1975b;
+  max-width: 800px;
+  font-weight: 400;
+  font-size: 18px;
+  font-family: "Raleway", serif;
+}
+#products-inner-card {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+  height: 100%;
+  border: 1px solid rgba(220, 220, 220, 0.281);
+}
+
+#products-inner-card:hover {
+  transform: translateY(-5px);
+}
+
+#products-inner-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  border-radius: 4px;
+}
+
+.pricing-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.loading-container{
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+@media (max-width: 992px) {
+  #gallery-box {
+      padding:100px 10px 0px 10px;
+      overflow-x: hidden;
+  }
+
+  #products-inner-card img {
+      height: 150px;
+  }
+  #gallery-box-filterbtns{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-bottom: 15px;
+    background-color: #f4f3f3;
+    overflow-x: auto;
+    white-space: nowrap;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    width: 100%;
+    padding: 8px 2px;
+  }
+  #gallery-small{
+    display: none;
+  }
+}

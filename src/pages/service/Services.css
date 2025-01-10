@@ -1,0 +1,185 @@
+#service-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 100px;
+  height: 50vh;
+  background-image: linear-gradient(
+      to right,
+      #f1975b9e,
+      #1d2f6186,
+      #1d2f61a4,
+      #f1975b94
+    ),
+    url("../../assets/home02.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+#service-page h4 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 30px;
+  font-family: "Bebas Neue", serif;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+}
+#service-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #dcdcdc;
+  border-radius: 4px;
+}
+#service-card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 4px 4px 0px 0px;
+ 
+}
+#service-card h4{
+    color:#1d2f61;
+    margin-top: 15px;
+    font-weight: 600;
+    font-family: "Bebas Neue", serif;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+    font-size: 20px;
+}
+#service-card p{
+margin: 2px 5px;
+text-align: center;
+}
+#service-card button{
+border: none;
+background-color: transparent;
+color: #f1975b;
+font-weight: 700;
+margin: 8px 0px;
+text-decoration: underline;
+}
+#service-card button:hover{
+color: #1d2f61;
+}
+#service-banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+    height: 60vh;
+    background-image: linear-gradient(
+        to right,
+        #343434f2,
+        #1d2f619c,
+        #1d2f61a0,
+        #343434f2
+      ),
+      url("../../assets/home02.jpeg");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#service-banner h4{
+    color: #faebd7;
+    text-align: center;
+    font-weight: 200;
+    font-family: "Raleway", serif;
+    line-height: 2.5rem;
+}
+#service-banner-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid gainsboro;
+    padding: 20px 5px;
+    border-radius: 4px;
+}
+#service-banner-box button{
+padding: 12px 25px;
+border-radius: 4px;
+background-color: transparent;
+color:#fff;
+font-size: 18px;
+font-weight: 700;
+border: 4px solid transparent;
+border-image: linear-gradient(to right,  #146aea, #f1975b,#146aea) 1;
+font-family: "Raleway", serif;
+}
+#why-us{
+    margin-top: 20px;
+}
+#why-us-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+#why-us-card h4{
+  color:#1d2f61;
+  margin-top: 15px;
+  font-family: "Bebas Neue", serif;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+  font-size: 25px;
+}
+#why-us-card ul li{
+    color: #f1975b;
+    margin-top: 20px;
+ font-weight: 600;
+}
+#why-us-card img{
+width: 100%;
+height: auto;
+object-fit: cover;
+border-radius: 4px;
+}
+@media (max-width: 750px) {
+  #service-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 100px;
+    height: 35vh;
+    background-image: linear-gradient(
+        to right,
+        #f1975b9e,
+        #1d2f6186,
+        #1d2f61a4,
+        #f1975b94
+      ),
+      url("../../assets/home02.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 20px;
+  }
+    #service-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #dcdcdc;
+        border-radius: 4px;
+        margin: 8px 0px;
+      }
+      #why-us-card ul li{
+        color: #f1975b;
+        margin-top: 2px;
+     font-weight: 600;
+    }
+    #service-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 4px 4px 0px 0px;
+     
+    }
+}

@@ -1,0 +1,16 @@
+#offer-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 15px;
+  background-image: linear-gradient(to right,  #1d2f61, #f1975b, #1d2f61);
+  border-radius: 4px;
+  margin-top: 15px;
+}
+#offer-card h5{
+    color: #fdfbfb;
+}
+#offer-card-icon {
+  font-size: 50px;
+  color: #fdfbfb;
+}

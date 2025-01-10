@@ -1,0 +1,110 @@
+.navbar {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+  z-index: 100;
+  background-color: #f4f3f3;
+ /* box-shadow: 2px 1px #dcdcdc8e; */
+}
+#nav-chat-btn {
+  display: none;
+}
+#nav-chat-btn button {
+  padding: 8px 8px;
+  border: none;
+  border-radius: 4px;
+  background-image: linear-gradient(to right, #1d2f61, #f1975b);
+  color: #fff;
+  font-weight: 700;
+}
+.navbar-toggler {
+  border: 2px solid #1d2f61;
+}
+
+#logo-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  width: 150px;
+  height: 80px;
+}
+#logo-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  margin-left: -80px;
+}
+/* Add these styles to your Navbar.css file */
+.nav-item {
+  position: relative;
+  cursor: pointer;
+  margin: 0px 15px;
+}
+
+.nav-item.active::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #1d2f61;
+  transition: all 0.3s ease;
+}
+
+#nav-link {
+  color: #1d2f61;
+  /* color: #fff; */
+  font-weight: 700;
+  font-size: 18px;
+}
+#nav-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#nav-btn button {
+  padding: 12px 25px;
+  border-radius: 4px;
+  font-weight: 700;
+  background-color: transparent;
+  color: #1d2f61;
+  border: 4px solid transparent;
+  border-image: linear-gradient(to right, #1d2f61, #f1975b, #1d2f61) 1;
+}
+
+@media (max-width: 750px) {
+  #nav-chat-btn {
+    display: block;
+    padding: 10px 5px;
+  }
+
+  .nav-item.active::after {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #1d2f61;
+    transition: all 0.3s ease;
+  }
+  .navbar {
+    padding: 2px 0px;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    z-index: 100;
+    background-color: #f4f3f3;
+  }
+  .navbar-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: gainsboro;
+  }
+}

@@ -1,0 +1,149 @@
+#about-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 100px;
+  height: 50vh;
+  background-image: linear-gradient(
+      to right,
+      #f1975b9e,
+      #1d2f6186,
+      #1d2f61a4,
+      #f1975b94
+    ),
+    url("../../assets/home02.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+#about-page h4 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 30px;
+  font-family: "Bebas Neue", serif;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+}
+#about-page-card h2{
+  color:#1d2f61;
+  font-family: "Bebas Neue", serif;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+}
+#about-page-card h3{
+  color: #f1975b;
+  font-weight: 200;
+  font-family: "Raleway", serif;
+}
+#about-team-card h2{
+  color:#1d2f61;
+  font-family: "Bebas Neue", serif;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+  text-align: center;
+  margin-top: 25px;
+}
+#team-card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #dcdcdc;
+  border-radius: 4px;
+background-color: #dcdcdc38;
+}
+#team-card img{
+width: 100%;
+height: auto;
+object-fit: cover;
+}
+#team-card p{
+margin: 5px;
+font-weight: 600;
+}
+#team-card h6{
+color: #1d2f61;
+font-family: "Bebas Neue", serif;
+font-weight: 700;
+letter-spacing: 0.2rem;
+  margin-top: 5px;
+  }
+  #team-card-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #team-icons{
+    margin: 0px 10px;
+    font-size: 20px;
+    color: #f1975b;
+    cursor: pointer;
+  }
+#about-page-box {
+  margin-top: 20px;
+}
+#about-page-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#about-page-card img{
+    width: 100%;
+    height: inherit;
+    object-fit: contain;
+    border-radius: 4px;
+}
+
+#asked-qtns{
+  margin-top: 25px;
+  border: 1px solid #dcdcdc;
+  border-radius: 4px;
+}
+#asked-qtns h2{
+  color: #f1975b;
+  margin-top: 15px;
+  font-family: "Bebas Neue", serif;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+  text-align: center;
+
+}
+.accordion-button{
+  color: #1d2f61;
+  font-weight: 600;
+  font-family: "Raleway", serif;
+}
+@media (max-width: 750px) {
+    #about-page {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding-top: 100px;
+        height: 40vh;
+        background-image: linear-gradient(
+          to right,
+          #f1975b9e,
+          #1d2f6186,
+          #1d2f61a4,
+          #f1975b94
+        ),
+        url("../../assets/home02.jpeg");
+      }
+      #about-small{
+        display: none;
+      }
+      #team-card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #dcdcdc;
+        border-radius: 4px;
+        margin: 8px 0px;
+      
+      }
+}
