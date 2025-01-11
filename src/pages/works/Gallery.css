@@ -1,10 +1,7 @@
-
 #gallery-box {
-
-      padding:120px 10px 0px 10px;
-
+  padding: 120px 10px 0px 10px;
 }
-#gallery-box-filterbtns{
+#gallery-box-filterbtns {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -18,15 +15,15 @@
   padding: 8px 2px;
 }
 
-#gallery-box-filterbtns button{
-padding: 6px 25px;
-border-radius: 4px;
-background-color: #fff;
-color: rgb(105, 105, 104);
-border: 1px solid gainsboro;
-font-family: "Raleway", serif;
-font-weight: 600;
-margin: 0px 5px;
+#gallery-box-filterbtns button {
+  padding: 6px 25px;
+  border-radius: 4px;
+  background-color: #fff;
+  color: rgb(105, 105, 104);
+  border: 1px solid gainsboro;
+  font-family: "Raleway", serif;
+  font-weight: 600;
+  margin: 0px 5px;
 }
 #gallery-box-filterbtns button:hover {
   background-color: #1d2f61;
@@ -36,12 +33,12 @@ margin: 0px 5px;
   background-color: #1d2f61;
   color: #f1975b;
 }
-#shops-terms{
+#shops-terms {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-#shops-terms h5{
+#shops-terms h5 {
   text-align: center;
   color: #f1975b;
   max-width: 800px;
@@ -76,7 +73,7 @@ margin: 0px 5px;
   justify-content: center;
   gap: 8px;
 }
-.loading-container{
+.loading-container {
   margin-top: 200px;
   display: flex;
   flex-direction: column;
@@ -87,14 +84,14 @@ margin: 0px 5px;
 
 @media (max-width: 992px) {
   #gallery-box {
-      padding:100px 10px 0px 10px;
-      overflow-x: hidden;
+    padding: 100px 10px 0px 10px;
+    overflow-x: hidden;
   }
 
   #products-inner-card img {
-      height: 150px;
+    height: 150px;
   }
-  #gallery-box-filterbtns{
+  #gallery-box-filterbtns {
     display: flex;
     align-items: center;
     justify-content: start;
@@ -107,7 +104,7 @@ margin: 0px 5px;
     width: 100%;
     padding: 8px 2px;
   }
-  #gallery-small{
+  #gallery-small {
     display: none;
   }
 }

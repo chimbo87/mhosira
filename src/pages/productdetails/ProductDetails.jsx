@@ -4,11 +4,14 @@ import shop01 from "../../assets/product03.jpeg";
 import shop02 from "../../assets/product02.jpeg";
 import shop03 from "../../assets/product01.jpeg";
 import shop04 from "../../assets/product04.jpeg";
+import { FaLongArrowAltLeft } from "react-icons/fa";
+import { useNavigate } from "react-router-dom";
 
 function ProductDetails() {
+  const navigate = useNavigate();
   const [currentSlide, setCurrentSlide] = useState(0);
 
-  const images = [shop01, shop02, shop03,shop04];
+  const images = [shop01, shop02, shop03, shop04];
 
   const nextSlide = () => {
     setCurrentSlide((prev) => (prev === images.length - 1 ? 0 : prev + 1));
@@ -20,6 +23,15 @@ function ProductDetails() {
 
   return (
     <div className="container" id="product-details-box">
+      <div id="product-details-headbtn">
+        <button
+          onClick={() => {
+            navigate("/our-shop");
+          }}
+        >
+          <FaLongArrowAltLeft /> Back
+        </button>
+      </div>
       <div id="product-details-card">
         <div style={{ position: "relative", width: "100%" }}>
           <img src={images[currentSlide]} alt="banner" />

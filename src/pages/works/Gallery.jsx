@@ -171,13 +171,13 @@ function Gallery() {
         </button>
         <button>Chargers</button>
       </div>
-      <div id="shops-terms">
+      {/* <div id="shops-terms">
         <h5>
           Upgrade your phone with the latest accessories – style, protection,
           and performance all in one place! <span id="gallery-small">Discover quality products that make
           your device stand out</span>
         </h5>
-      </div>
+      </div> */}
       <div className="row g-4">
         {products.map((product) => (
           <div key={product.id} className="col-6 col-lg-3">
