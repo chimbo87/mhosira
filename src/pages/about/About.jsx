@@ -61,10 +61,7 @@ function About() {
             <h2>
               With over 10 years of excellence in mobile device care, we've
               built our reputation on expert phone repairs, quality accessories,
-              and reliable freight services. From fixing your beloved devices to
-              delivering them safely across the country, our dedicated team
-              combines technical expertise with exceptional customer service to
-              keep you connected.
+              and reliable freight services. 
             </h2>
           </div>
         </div>
