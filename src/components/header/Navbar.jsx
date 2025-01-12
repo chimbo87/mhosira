@@ -25,7 +25,14 @@ function Navbar() {
             <img src={userlogo} alt="logo" />
           </div>
           <div id="nav-chat-btn">
-            <button>
+            <button
+              onClick={() =>
+                window.open(
+                  "https://wa.me/263773609855?text=Hi,%20I%20need%20to%20enquire%20about%20your%20services",
+                  "_blank"
+                )
+              }
+            >
               Let's Chat <FaWhatsapp />
             </button>
           </div>
@@ -106,7 +113,16 @@ function Navbar() {
               </li>
             </ul>
             <div id="nav-btn">
-              <button>Let's Chat</button>
+              <button
+                onClick={() =>
+                  window.open(
+                    "https://wa.me/263773609855?text=Hi,%20I%20need%20to%20enquire%20about%20your%20services",
+                    "_blank"
+                  )
+                }
+              >
+                Let's Chat
+              </button>
             </div>
           </div>
         </div>
