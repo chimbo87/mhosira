@@ -28,7 +28,7 @@ function Navbar() {
             <button
               onClick={() =>
                 window.open(
-                  "https://wa.me/263773609855?text=Hello%20MobilelandInvestments,%20I%20need%20to%20enquire%20about%20your%20services",
+                  "https://wa.me/263773609855?text=Hello%20MobilelandInvestments,%20I%20would%20like%20to%20enquire%20about%20your%20services",
                   "_blank"
                 )
               }
@@ -116,7 +116,7 @@ function Navbar() {
               <button
                 onClick={() =>
                   window.open(
-                    "https://wa.me/263773609855?text=Hello%20MobilelandInvestments,%20I%20need%20to%20enquire%20about%20your%20services",
+                    "https://wa.me/263773609855?text=Hello%20MobilelandInvestments,%20I%20would%20like%20to%20enquire%20about%20your%20services",
                     "_blank"
                   )
                 }

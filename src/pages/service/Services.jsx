@@ -7,25 +7,11 @@ import banner04 from "../../assets/home03.jpeg";
 import { useNavigate } from "react-router-dom";
 import { FaArrowRightLong } from "react-icons/fa6";
 import { IoArrowForward } from "react-icons/io5";
-import { Input, Modal } from "antd";
-const { TextArea } = Input;
+
 
 function Services() {
   const navigate = useNavigate();
-  const [isModalOpen, setIsModalOpen] = useState(false);
-  const [isNavCollapsed, setIsNavCollapsed] = useState(true);
 
-  const showModal = () => {
-    setIsModalOpen(true);
-  };
-
-  const handleOk = () => {
-    setIsModalOpen(false);
-  };
-
-  const handleCancel = () => {
-    setIsModalOpen(false);
-  };
   return (
     <>
       <div className="container-fluid" id="service-page">
@@ -96,7 +82,12 @@ function Services() {
             technicians have successfully restored over 3,000 devices, and our
             trusted freight service ensures safe delivery from China.
           </h4>
-          <button onClick={showModal}>
+          <button  onClick={() =>
+                window.open(
+                  "https://wa.me/263773609855?text=Hello%20MobilelandInvestments,%20I%20would%20like%20to%20enquire%20about%20your%20services",
+                  "_blank"
+                )
+              }>
             Send Us Message <IoArrowForward />
           </button>
         </div>
@@ -143,27 +134,7 @@ function Services() {
         </div>
       </div>
 
-      <div>
-        <Modal
-          title="Get In Touch With Us"
-          open={isModalOpen}
-          onOk={handleOk}
-          onCancel={handleCancel}
-        >
-          <div id="input-card">
-            <div id="nav-input-card">
-              <Input placeholder="Full Name" size="large" />
-            </div>
-            <div id="nav-input-card">
-              <Input placeholder="Phone Number" size="large" />
-            </div>
-            <div id="nav-input-card">
-              <TextArea rows={4} placeholder="Message" maxLength={6} />
-            </div>
-          </div>
-        </Modal>
-      </div>
-      <div></div>
+    
     </>
   );
 }
