@@ -81,7 +81,13 @@
   justify-content: center;
   margin-bottom: 100px;
 }
-
+#price-tag{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #f1975b;
+}
 @media (max-width: 992px) {
   #gallery-box {
     padding: 100px 10px 0px 10px;

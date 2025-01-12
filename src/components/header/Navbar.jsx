@@ -13,7 +13,7 @@ function Navbar() {
 
   const handleNavClick = (path) => {
     setActiveItem(path);
-    setIsNavCollapsed(true); // Close the navbar when a link is clicked
+    setIsNavCollapsed(true); 
     navigate(path);
   };
 
