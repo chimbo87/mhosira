@@ -102,10 +102,9 @@ function Shop() {
     <div className="container" id="shop-page">
       <h4>Check out our latest products</h4>
       <Swiper
-        modules={[Navigation, Pagination, Autoplay]}
+        modules={[Pagination, Autoplay]}
         spaceBetween={30}
         slidesPerView={1}
-        navigation
         pagination={{ clickable: true }}
         autoplay={{
           delay: 2500,

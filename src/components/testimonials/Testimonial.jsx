@@ -63,13 +63,14 @@ function Testimonial() {
       <div id="testimony-top">
         <div id="testimony-top-card">
           <h2>
-          Join thousands of satisfied customers who trust us with their devices every day
+            Join thousands of satisfied customers who trust us with their
+            devices every day
           </h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
-            quod ipsa itaque fugiat quisquam. Excepturi aperiam repellat porro
-            atque a voluptatibus, nisi ea nobis, aut eveniet modi facilis quas
-            sequi?
+            From quick repairs to quality parts, we deliver expert service with
+            a personal touch. Our certified technicians have successfully
+            restored over 3,000 devices, giving your gadgets the care they
+            deserve at prices you can trust.
           </p>
         </div>
       </div>
@@ -133,7 +134,7 @@ function Testimonial() {
                     <IoMdStar key={i} id="testimonial-rate-star" />
                   ))}
                 </div>
-                <p>"{testimonial.quote}"</p>
+                <p id="testimonial-quote">"{testimonial.quote}"</p>
                 <div id="testimonial-card-user">
                   <h5>{testimonial.name}</h5>
                   <p>

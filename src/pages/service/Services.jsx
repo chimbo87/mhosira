@@ -38,12 +38,14 @@ function Services() {
               <img src={banner04} alt="banner" />
               <h4>Cell Phone Repairs</h4>
               <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus
-                impedit incidunt, nesciunt harum distinctio in veritatis dolor
-                dolorem corporis. Soluta, dicta esse. Optio amet omnis, dicta
-                culpa voluptate facilis perferendis?
+                Expert repairs for all major brands and models. From cracked
+                screens to battery replacements, water damage to software issues
+                - we fix it all with quality parts and same-day service in most
+                cases
               </p>
-              <button>Get A Quote <FaArrowRightLong /></button>
+              <button>
+                Get A Quote <FaArrowRightLong />
+              </button>
             </div>
           </div>
           <div class="col-lg-4 col-md-4">
@@ -51,14 +53,18 @@ function Services() {
               <img src={banner02} alt="banner" />
               <h4>We Sell Phones & Accessories</h4>
               <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus
-                impedit incidunt, nesciunt harum distinctio in veritatis dolor
-                dolorem corporis. Soluta, dicta esse. Optio amet omnis, dicta
-                culpa voluptate facilis perferendis?
+                Browse our curated selection of new and certified pre-owned
+                phones, plus all the accessories you need. Get competitive
+                prices on trusted brands, with warranties and expert guidance
+                included.
               </p>
-              <button  onClick={() => {
+              <button
+                onClick={() => {
                   navigate("/our-shop");
-                }}>Shop With Us <FaArrowRightLong /></button>
+                }}
+              >
+                Shop With Us <FaArrowRightLong />
+              </button>
             </div>
           </div>
           <div class="col-lg-4 col-md-4">
@@ -66,14 +72,18 @@ function Services() {
               <img src={banner01} alt="banner" />
               <h4>We Do Freight Services</h4>
               <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus
-                impedit incidunt, nesciunt harum distinctio in veritatis dolor
-                dolorem corporis. Soluta, dicta esse. Optio amet omnis, dicta
-                culpa voluptate facilis perferendis?
+                Safe and reliable shipping of your devices from China. Whether
+                you're sending a single phone or bulk electronics, our tracked
+                shipping solutions ensure your items arrive securely and on
+                time.
               </p>
-              <button  onClick={() => {
+              <button
+                onClick={() => {
                   navigate("/our-shop");
-                }}>Order With Us <FaArrowRightLong /></button>
+                }}
+              >
+                Order With Us <FaArrowRightLong />
+              </button>
             </div>
           </div>
         </div>
@@ -81,9 +91,10 @@ function Services() {
       <div className="container-fluid" id="service-banner">
         <div className="container" id="service-banner-box">
           <h4>
-            Minus impedit incidunt, nesciunt harum distinctio in veritatis dolor
-            dolorem corporis. Soluta, dicta esse. Optio amet omnis, dicta culpa
-            voluptate facilis perferendis?
+            From quick repairs to quality parts and reliable shipping, we
+            deliver expert service with a personal touch. Our certified
+            technicians have successfully restored over 3,000 devices, and our
+            trusted freight service ensures safe delivery from China.
           </h4>
           <button onClick={showModal}>
             Send Us Message <IoArrowForward />
@@ -94,17 +105,40 @@ function Services() {
         <div class="row">
           <div class="col-lg-6 col-md-4">
             <div id="why-us-card">
-              <h4>Why Choose Mobileland ?</h4>
+              <h4>Why Choose Mobileland?</h4>
               <ul>
-                <li>Quality Assurance</li>
-                <li>Fast Service delivery</li>
-                <li>Affordable Payment</li>
-                <li>We Reach Every Corner</li>
-                <li>Fast Service delivery</li>
-                <li>Quality Assurance</li>
-                <li>We Reach Every Corner</li>
-                <li>Fast Service delivery</li>
-                <li>Quality Assurance</li>
+                <li>
+                  Quality Assurance - All repairs backed by our satisfaction
+                  guarantee
+                </li>
+                <li>
+                  Fast Service Delivery - Most repairs completed within 24 hours
+                </li>
+                <li>
+                  Affordable Payment - Competitive pricing with flexible payment
+                  options
+                </li>
+                <li>
+                  Nationwide Coverage - We reach every corner through our
+                  freight service
+                </li>
+                <li>
+                  Certified Technicians - Expert team trained in latest repair
+                  techniques
+                </li>
+                <li>
+                  Genuine Parts - Only authentic components used for all repairs
+                </li>
+                <li>
+                  Free Diagnostics - Detailed assessment before any repair work
+                </li>
+                <li>
+                  Warranty Protection - Extended warranty on all repairs and
+                  products
+                </li>
+                <li>
+                  Customer Support - Dedicated team available 7 days a week
+                </li>
               </ul>
             </div>
           </div>

@@ -74,7 +74,7 @@
 }
 #testimonial-card p {
   color: #fff;
-  font-weight: 700;
+  font-weight: 400;
   font-family: "Raleway", serif;
 }
 #testimonial-card-user {
@@ -86,6 +86,7 @@
 }
 #testimonial-card-user h5 {
   color: antiquewhite;
+  font-family: "Raleway", serif;
 }
 #testimonial-rate-star {
   color: #ffae00;
@@ -100,5 +101,12 @@
     align-items: center;
     margin: 6px 0px;
     padding: 15px;
+  }
+ 
+  #testimonial-card p {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Raleway", serif;
   }
 }

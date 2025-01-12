@@ -107,4 +107,17 @@
     justify-content: center;
     background-color: gainsboro;
   }
+  #nav-btn {
+    display: none;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (max-width: 350px) {
+  #nav-chat-btn {
+    display: block;
+    padding: 2px 2px;
+  margin-left: -80px;
+  font-size: 14px;
+  }
 }

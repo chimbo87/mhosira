@@ -57,9 +57,9 @@ function About() {
               <img src={person01} alt="person" />
               <h6>Chief Technical Officer</h6>
               <div id="team-card-icons">
-              <MdOutlinePhone  id="team-icons"/>
-              <AiOutlineWhatsApp  id="team-icons"/>
-              <MdOutlineMail id="team-icons"/>
+                <MdOutlinePhone id="team-icons" />
+                <AiOutlineWhatsApp id="team-icons" />
+                <MdOutlineMail id="team-icons" />
               </div>
               <p>C. Mhosira</p>
             </div>
@@ -69,9 +69,9 @@ function About() {
               <img src={person02} alt="person" />
               <h6>Marketing Manager</h6>
               <div id="team-card-icons">
-              <MdOutlinePhone  id="team-icons"/>
-              <AiOutlineWhatsApp  id="team-icons"/>
-              <MdOutlineMail id="team-icons"/>
+                <MdOutlinePhone id="team-icons" />
+                <AiOutlineWhatsApp id="team-icons" />
+                <MdOutlineMail id="team-icons" />
               </div>
               <p>Jane Doe</p>
             </div>
@@ -81,9 +81,9 @@ function About() {
               <img src={person01} alt="person" />
               <h6>Marketing Manager</h6>
               <div id="team-card-icons">
-              <MdOutlinePhone  id="team-icons"/>
-              <AiOutlineWhatsApp  id="team-icons"/>
-              <MdOutlineMail id="team-icons"/>
+                <MdOutlinePhone id="team-icons" />
+                <AiOutlineWhatsApp id="team-icons" />
+                <MdOutlineMail id="team-icons" />
               </div>
               <p>John Doe</p>
             </div>
@@ -104,7 +104,7 @@ function About() {
                 aria-expanded="false"
                 aria-controls="flush-collapseOne"
               >
-                Question 1
+                How long does a typical phone repair take?
               </button>
             </h2>
             <div
@@ -113,9 +113,11 @@ function About() {
               data-bs-parent="#accordionFlushExample"
             >
               <div class="accordion-body">
-                Placeholder content for this accordion, which is intended to
-                demonstrate the <code>.accordion-flush</code> class. This is the
-                first item's accordion body.
+                Most repairs are completed within 1-2 hours, with complex
+                repairs taking up to 24 hours. We prioritize quick turnaround
+                while ensuring quality work. You'll receive regular updates
+                about your repair status, and we'll notify you immediately once
+                your device is ready for pickup.
               </div>
             </div>
           </div>
@@ -129,7 +131,7 @@ function About() {
                 aria-expanded="false"
                 aria-controls="flush-collapseTwo"
               >
-               Where are you located ?
+                Do you provide warranty on repairs?
               </button>
             </h2>
             <div
@@ -138,10 +140,11 @@ function About() {
               data-bs-parent="#accordionFlushExample"
             >
               <div class="accordion-body">
-                Placeholder content for this accordion, which is intended to
-                demonstrate the <code>.accordion-flush</code> class. This is the
-                second item's accordion body. Let's imagine this being filled
-                with some actual content.
+                Yes, all our repairs come with a 90-day warranty covering both
+                parts and labor. If you experience any issues related to our
+                repair work within this period, we'll fix it free of charge.
+                This warranty demonstrates our confidence in our work and
+                commitment to your satisfaction.
               </div>
             </div>
           </div>
@@ -156,7 +159,7 @@ function About() {
                 aria-expanded="false"
                 aria-controls="flush-collapseThree"
               >
-                Accordion Item #3
+                What types of payment methods do you accept?
               </button>
             </h2>
             <div
@@ -165,12 +168,11 @@ function About() {
               data-bs-parent="#accordionFlushExample"
             >
               <div class="accordion-body">
-                Placeholder content for this accordion, which is intended to
-                demonstrate the <code>.accordion-flush</code> class. This is the
-                third item's accordion body. Nothing more exciting happening
-                here in terms of content, but just filling up the space to make
-                it look, at least at first glance, a bit more representative of
-                how this would look in a real-world application.
+                We accept multiple payment methods for your convenience,
+                including cash, all major credit/debit cards, bank transfers,
+                and mobile payment solutions. We also offer flexible payment
+                plans for larger repairs or device purchases to make our
+                services more accessible.
               </div>
             </div>
           </div>
@@ -181,25 +183,24 @@ function About() {
                 class="accordion-button collapsed"
                 type="button"
                 data-bs-toggle="collapse"
-                data-bs-target="#flush-collapseThree"
+                data-bs-target="#flush-collapseFour"
                 aria-expanded="false"
-                aria-controls="flush-collapseThree"
+                aria-controls="flush-collapseFour"
               >
-                Accordion Item #3
+                Do you use original/genuine parts for repairs?
               </button>
             </h2>
             <div
-              id="flush-collapseThree"
+              id="flush-collapseFour"
               class="accordion-collapse collapse"
               data-bs-parent="#accordionFlushExample"
             >
               <div class="accordion-body">
-                Placeholder content for this accordion, which is intended to
-                demonstrate the <code>.accordion-flush</code> class. This is the
-                third item's accordion body. Nothing more exciting happening
-                here in terms of content, but just filling up the space to make
-                it look, at least at first glance, a bit more representative of
-                how this would look in a real-world application.
+                Absolutely! We only use high-quality genuine or
+                manufacturer-certified replacement parts for all our repairs.
+                This ensures optimal performance, maintains your device's value,
+                and provides long-lasting results. Each part comes with its own
+                warranty for your peace of mind.
               </div>
             </div>
           </div>
@@ -210,25 +211,25 @@ function About() {
                 class="accordion-button collapsed"
                 type="button"
                 data-bs-toggle="collapse"
-                data-bs-target="#flush-collapseThree"
+                data-bs-target="#flush-collapseFive"
                 aria-expanded="false"
-                aria-controls="flush-collapseThree"
+                aria-controls="flush-collapseFive"
               >
-                Accordion Item #3
+                How does your freight service work?
               </button>
             </h2>
             <div
-              id="flush-collapseThree"
+              id="flush-collapseFive"
               class="accordion-collapse collapse"
               data-bs-parent="#accordionFlushExample"
             >
               <div class="accordion-body">
-                Placeholder content for this accordion, which is intended to
-                demonstrate the <code>.accordion-flush</code> class. This is the
-                third item's accordion body. Nothing more exciting happening
-                here in terms of content, but just filling up the space to make
-                it look, at least at first glance, a bit more representative of
-                how this would look in a real-world application.
+                Our freight service provides secure, tracked shipping for
+                devices nationwide. Once you book a shipment, we provide
+                protective packaging, real-time tracking, and insurance
+                coverage. Most deliveries are completed within 2-3 business
+                days, and you'll receive regular updates throughout the shipping
+                process.
               </div>
             </div>
           </div>

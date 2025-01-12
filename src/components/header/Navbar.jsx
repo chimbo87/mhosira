@@ -4,13 +4,8 @@ import { FaWhatsapp } from "react-icons/fa";
 import userlogo from "../../assets/mobilandlogo.png";
 import { useNavigate, useLocation } from "react-router-dom";
 
-
-
 function Navbar() {
-
   const [isNavCollapsed, setIsNavCollapsed] = useState(true);
-
- 
 
   const navigate = useNavigate();
   const location = useLocation();
@@ -46,8 +41,8 @@ function Navbar() {
           >
             <span className="navbar-toggler-icon"></span>
           </button>
-          <div 
-            className={`${isNavCollapsed ? 'collapse' : ''} navbar-collapse`} 
+          <div
+            className={`${isNavCollapsed ? "collapse" : ""} navbar-collapse`}
             id="navbarSupportedContent"
           >
             <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
@@ -65,7 +60,9 @@ function Navbar() {
                 </a>
               </li>
               <li
-                className={`nav-item ${activeItem === "/services" ? "active" : ""}`}
+                className={`nav-item ${
+                  activeItem === "/services" ? "active" : ""
+                }`}
                 onClick={() => handleNavClick("/services")}
               >
                 <a
@@ -78,7 +75,9 @@ function Navbar() {
                 </a>
               </li>
               <li
-                className={`nav-item ${activeItem === "/about" ? "active" : ""}`}
+                className={`nav-item ${
+                  activeItem === "/about" ? "active" : ""
+                }`}
                 onClick={() => handleNavClick("/about")}
               >
                 <a
@@ -91,7 +90,9 @@ function Navbar() {
                 </a>
               </li>
               <li
-                className={`nav-item ${activeItem === "/our-shop" ? "active" : ""}`}
+                className={`nav-item ${
+                  activeItem === "/our-shop" ? "active" : ""
+                }`}
                 onClick={() => handleNavClick("/our-shop")}
               >
                 <a
@@ -100,10 +101,9 @@ function Navbar() {
                   href="#"
                   id="nav-link"
                 >
-                 shop
+                  shop
                 </a>
               </li>
-           
             </ul>
             <div id="nav-btn">
               <button>Let's Chat</button>
