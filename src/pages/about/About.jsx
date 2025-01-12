@@ -14,41 +14,62 @@ function About() {
         <h4>About Us</h4>
       </div>
       <div className="container" id="about-page-box">
+        <div id="about-page-card">
+          <h2>Who Are We ?</h2>
+          <h3>
+            From quick repairs to quality parts, we deliver expert service with
+            a personal touch. Our certified technicians have successfully
+            restored over 3,000 devices, giving your gadgets the care they
+            deserve at prices you can trust.
+          </h3>
+        </div>
+      </div>
+      <div className="container">
         <div class="row">
           <div class="col-lg-6 col-md-4">
-            <div id="about-page-card">
-              <h2>Who Are We ?</h2>
-              <h3>
-                Met consectetur adipisicing elit. Iste eius saepe sequi
-                consectetur
-              </h3>
+            <div>
               <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste
-                eius saepe sequi consectetur ipsa! Fuga, et minima ea dicta
-                quidem eaque quo. Cumque nam dolorum fugiat. Cupiditate magnam
-                laborum culpa? Lorem ipsum dolor sit, amet consectetur
-                adipisicing elit. Iste eius saepe sequi consectetur ipsa! Fuga,
-                et minima ea dicta quidem eaque quo. Cumque nam dolorum fugiat.
-                Cupiditate magnam laborum culpa?
-              </p>
-              <p id="about-small">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste
-                eius saepe sequi consectetur ipsa! Fuga, et minima ea dicta
-                quidem eaque quo. Cumque nam dolorum fugiat. Cupiditate magnam
-                laborum culpa? Lorem ipsum dolor sit, amet consectetur
-                adipisicing elit. Iste eius saepe sequi consectetur ipsa! Fuga,
-                et minima ea dicta quidem eaque quo. Cumque nam dolorum fugiat.
-                Cupiditate magnam laborum culpa?
+                As a trusted leader in mobile device solutions and freight
+                services, we've built our reputation on excellence and
+                reliability. Since 2014, we've successfully repaired over 2,000
+                devices and delivered efficient, cost-effective freight
+                solutions to businesses and individuals alike. Our certified
+                technicians handle everything from cracked screens to complex
+                motherboard issues with genuine parts and a solid warranty.
               </p>
             </div>
           </div>
           <div class="col-lg-6 col-md-4">
-            <div id="about-page-card">
-              <img src={banner01} alt="banner" />
+            <div>
+              <p>
+                We’re committed to transparency, offering upfront pricing and
+                the best care for your devices. In addition to repairs, we
+                provide a wide range of freight services, including road, air,
+                and sea transport, ensuring your goods are delivered on time and
+                securely. Whether you need a device repaired or freight shipped,
+                our experienced team is here to provide the perfect solution.
+                Your satisfaction is our legacy—built through reliable service,
+                one repair and shipment at a time.
+              </p>
             </div>
           </div>
         </div>
       </div>
+      <div className="container">
+        <div id="about-page-cardbanner">
+          <div id="about-page-cardbannercard">
+            <h2>
+              With over 10 years of excellence in mobile device care, we've
+              built our reputation on expert phone repairs, quality accessories,
+              and reliable freight services. From fixing your beloved devices to
+              delivering them safely across the country, our dedicated team
+              combines technical expertise with exceptional customer service to
+              keep you connected.
+            </h2>
+          </div>
+        </div>
+      </div>
+
       <div className="container" id="about-team-card">
         <h2>Meet Our Team Of Experts</h2>
         <div class="row">
@@ -112,7 +133,7 @@ function About() {
               class="accordion-collapse collapse"
               data-bs-parent="#accordionFlushExample"
             >
-              <div class="accordion-body">
+              <div class="accordion-body" style={{ color: "#f1975b" }}>
                 Most repairs are completed within 1-2 hours, with complex
                 repairs taking up to 24 hours. We prioritize quick turnaround
                 while ensuring quality work. You'll receive regular updates
@@ -139,7 +160,7 @@ function About() {
               class="accordion-collapse collapse"
               data-bs-parent="#accordionFlushExample"
             >
-              <div class="accordion-body">
+              <div class="accordion-body" style={{ color: "#f1975b" }}>
                 Yes, all our repairs come with a 90-day warranty covering both
                 parts and labor. If you experience any issues related to our
                 repair work within this period, we'll fix it free of charge.
@@ -167,7 +188,7 @@ function About() {
               class="accordion-collapse collapse"
               data-bs-parent="#accordionFlushExample"
             >
-              <div class="accordion-body">
+              <div class="accordion-body" style={{ color: "#f1975b" }}>
                 We accept multiple payment methods for your convenience,
                 including cash, all major credit/debit cards, bank transfers,
                 and mobile payment solutions. We also offer flexible payment
@@ -195,7 +216,7 @@ function About() {
               class="accordion-collapse collapse"
               data-bs-parent="#accordionFlushExample"
             >
-              <div class="accordion-body">
+              <div class="accordion-body" style={{ color: "#f1975b" }}>
                 Absolutely! We only use high-quality genuine or
                 manufacturer-certified replacement parts for all our repairs.
                 This ensures optimal performance, maintains your device's value,
@@ -223,7 +244,7 @@ function About() {
               class="accordion-collapse collapse"
               data-bs-parent="#accordionFlushExample"
             >
-              <div class="accordion-body">
+              <div class="accordion-body" style={{ color: "#f1975b" }}>
                 Our freight service provides secure, tracked shipping for
                 devices nationwide. Once you book a shipment, we provide
                 protective packaging, real-time tracking, and insurance

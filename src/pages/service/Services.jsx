@@ -102,51 +102,44 @@ function Services() {
         </div>
       </div>
       <div className="container" id="why-us">
-        <div class="row">
-          <div class="col-lg-6 col-md-4">
-            <div id="why-us-card">
-              <h4>Why Choose Mobileland?</h4>
-              <ul>
-                <li>
-                  Quality Assurance - All repairs backed by our satisfaction
-                  guarantee
-                </li>
-                <li>
-                  Fast Service Delivery - Most repairs completed within 24 hours
-                </li>
-                <li>
-                  Affordable Payment - Competitive pricing with flexible payment
-                  options
-                </li>
-                <li>
-                  Nationwide Coverage - We reach every corner through our
-                  freight service
-                </li>
-                <li>
-                  Certified Technicians - Expert team trained in latest repair
-                  techniques
-                </li>
-                <li>
-                  Genuine Parts - Only authentic components used for all repairs
-                </li>
-                <li>
-                  Free Diagnostics - Detailed assessment before any repair work
-                </li>
-                <li>
-                  Warranty Protection - Extended warranty on all repairs and
-                  products
-                </li>
-                <li>
-                  Customer Support - Dedicated team available 7 days a week
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-lg-6 col-md-4">
-            <div id="why-us-card">
-              <img src={banner03} alt="banner" />
-            </div>
-          </div>
+        <div id="why-us-card">
+          <h4>Why Choose Mobileland?</h4>
+          <ul>
+            <li>
+              Quality Assurance - All repairs backed by our satisfaction
+              guarantee
+            </li>
+            <li>
+              Fast Service Delivery - Most repairs completed within 24 hours
+            </li>
+            <li>
+              Affordable Payment - Competitive pricing with flexible payment
+              options
+            </li>
+            <li>
+              Nationwide Coverage - We reach every corner through our freight
+              service
+            </li>
+            <li>
+              Certified Technicians - Expert team trained in latest repair
+              techniques
+            </li>
+            <li>
+              Genuine Parts - Only authentic components used for all repairs
+            </li>
+            <li>
+              Free Diagnostics - Detailed assessment before any repair work
+            </li>
+            <li>
+              Warranty Protection - Extended warranty on all repairs and
+              products
+            </li>
+            <li>Customer Support - Dedicated team available 7 days a week</li>
+          </ul>
+        </div>
+
+        <div id="why-us-card">
+          <img src={banner03} alt="banner" />
         </div>
       </div>
 
