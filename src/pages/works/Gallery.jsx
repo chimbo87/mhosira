@@ -13,104 +13,150 @@ import shop06 from "../../assets/product06.jpeg";
 import shop07 from "../../assets/product07.jpeg";
 import shop08 from "../../assets/product08.jpeg";
 import shop09 from "../../assets/product09.jpeg";
+import shop10 from "../../assets/shop10.jpeg";
 
 function Gallery() {
   const navigate = useNavigate();
   const [loading, setLoading] = useState(true);
   const [products, setProducts] = useState([]);
-  const [activeButton, setActiveButton] = useState(null);
-  const handleButtonClick = (buttonId) => {
-    setActiveButton(buttonId);
-  };
+  const [filteredProducts, setFilteredProducts] = useState([]);
+  const [activeButton, setActiveButton] = useState(1);
 
   const Products = [
     {
       id: 1,
-      image: shop01, // Use the imported image
+      image: shop01,
+      images: [shop01, shop02, shop03, shop04], 
       productName: "Huawei P30 LCD",
       price: 6.99,
       oldPrice: 8.99,
+      category: "lcd",
       description:
-        "High-quality wireless headphones with noise cancellation and 30-hour battery life.",
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta est dolorum ut quis debitis in reiciendis! Nostrum sit repudiandae, vel officia nisi cupiditate sed sunt suscipit voluptatibus quaerat ab iusto!",
     },
     {
       id: 2,
-      image: shop02, // Use the imported image
+      image: shop02,
+      images: [shop02, shop03, shop04, shop05],
       productName: "Sony EarPhones",
       price: 5.99,
       oldPrice: 12.0,
+      category: "earphones",
       description:
-        "Feature-rich smartwatch with heart rate monitoring, GPS, and water resistance.",
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta est dolorum ut quis debitis in reiciendis! Nostrum sit repudiandae, vel officia nisi cupiditate sed sunt suscipit voluptatibus quaerat ab iusto!",
     },
     {
       id: 3,
-      image: shop03, // Use the imported image
+      image: shop03,
+      images: [shop03, shop04, shop05, shop06],
       productName: "Samsung Wireless Headphones",
       price: 12.99,
       oldPrice: 20.0,
+      category: "earphones",
       description:
-        "Durable laptop backpack with multiple compartments and USB charging port.",
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta est dolorum ut quis debitis in reiciendis! Nostrum sit repudiandae, vel officia nisi cupiditate sed sunt suscipit voluptatibus quaerat ab iusto!",
     },
     {
       id: 4,
-      image: shop04, // Use the imported image
+      image: shop04,
+      images: [shop04, shop05, shop06, shop07],
       productName: "LG Wireless HeadPhones",
       price: 15.99,
       oldPrice: 10.0,
+      category: "earphones",
       description:
-        "RGB mechanical keyboard with customizable switches and multimedia controls.",
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta est dolorum ut quis debitis in reiciendis! Nostrum sit repudiandae, vel officia nisi cupiditate sed sunt suscipit voluptatibus quaerat ab iusto!",
     },
     {
       id: 5,
-      image: shop05, // Use the imported image
+      image: shop05,
+      images: [shop05, shop06, shop07, shop08],
       productName: "Iphone X",
       price: 124.0,
       oldPrice: 150.3,
+      category: "phone",
       description:
-        "RGB mechanical keyboard with customizable switches and multimedia controls.",
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta est dolorum ut quis debitis in reiciendis! Nostrum sit repudiandae, vel officia nisi cupiditate sed sunt suscipit voluptatibus quaerat ab iusto!",
     },
     {
       id: 6,
-      image: shop06, // Use the imported image
+      image: shop06,
+      images: [shop06, shop07, shop08, shop09],
       productName: "Samsung A2 LCD",
       price: 5.5,
       oldPrice: 8.9,
+      category: "lcd",
       description:
-        "RGB mechanical keyboard with customizable switches and multimedia controls.",
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta est dolorum ut quis debitis in reiciendis! Nostrum sit repudiandae, vel officia nisi cupiditate sed sunt suscipit voluptatibus quaerat ab iusto!",
     },
     {
       id: 7,
-      image: shop07, // Use the imported image
+      image: shop07,
+      images: [shop07, shop08, shop09, shop10],
       productName: "Multi-Single Usd Cable",
       price: 10.0,
       oldPrice: 12.0,
+      category: "charger",
       description:
-        "RGB mechanical keyboard with customizable switches and multimedia controls.",
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta est dolorum ut quis debitis in reiciendis! Nostrum sit repudiandae, vel officia nisi cupiditate sed sunt suscipit voluptatibus quaerat ab iusto!",
     },
     {
       id: 8,
-      image: shop08, // Use the imported image
+      image: shop08,
+      images: [shop08, shop09, shop10, shop01],
       productName: "Samsung Quick Charger",
       price: 4.55,
       oldPrice: 8.7,
+      category: "charger",
       description:
-        "RGB mechanical keyboard with customizable switches and multimedia controls.",
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta est dolorum ut quis debitis in reiciendis! Nostrum sit repudiandae, vel officia nisi cupiditate sed sunt suscipit voluptatibus quaerat ab iusto!",
     },
     {
       id: 9,
-      image: shop09, // Use the imported image
+      image: shop09,
+      images: [shop09, shop10, shop01, shop02],
       productName: "Huawei Laptop Charger",
       price: 12.5,
       oldPrice: 14.0,
+      category: "charger",
       description:
-        "RGB mechanical keyboard with customizable switches and multimedia controls.",
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta est dolorum ut quis debitis in reiciendis! Nostrum sit repudiandae, vel officia nisi cupiditate sed sunt suscipit voluptatibus quaerat ab iusto!",
+    },
+    {
+      id: 10,
+      image: shop10,
+      images: [shop10, shop01, shop02, shop03],
+      productName: "T-shirt Printing Machine",
+      price: 320.5,
+      oldPrice: 380.0,
+      category: "industrial machines",
+      description:
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta est dolorum ut quis debitis in reiciendis! Nostrum sit repudiandae, vel officia nisi cupiditate sed sunt suscipit voluptatibus quaerat ab iusto!",
     },
   ];
+
+  const handleButtonClick = (buttonId, category) => {
+    setActiveButton(buttonId);
+    filterProducts(category);
+  };
+
+  const filterProducts = (category) => {
+    if (!category || category === 'all') {
+      setFilteredProducts(products);
+    } else {
+      const filtered = products.filter(product => 
+        product.category.toLowerCase() === category.toLowerCase()
+      );
+      setFilteredProducts(filtered);
+    }
+  };
+
   useEffect(() => {
     // Simulate API call with setTimeout
     const fetchProducts = () => {
       setTimeout(() => {
         setProducts(Products);
+        setFilteredProducts(Products);
         setLoading(false);
       }, 200);
     };
@@ -120,7 +166,7 @@ function Gallery() {
 
   if (loading) {
     return (
-      <div class="loading-container">
+      <div className="loading-container">
         <Spin size="large" tip="Loading products..." />
       </div>
     );
@@ -131,66 +177,61 @@ function Gallery() {
       <div id="gallery-box-filterbtns">
         <button
           className={activeButton === 1 ? "active" : ""}
-          onClick={() => handleButtonClick(1)}
+          onClick={() => handleButtonClick(1, 'all')}
           style={{
             display: "flex",
             alignItems: "center",
             justifyContent: "center",
           }}
         >
-          <BiFilterAlt style={{ fontSize: "20px", marginRight: "10px" }} />{" "}
+          <BiFilterAlt style={{ fontSize: "20px", marginRight: "10px" }} />
           Filter All
         </button>
         <button
           className={activeButton === 2 ? "active" : ""}
-          onClick={() => handleButtonClick(2)}
+          onClick={() => handleButtonClick(2, 'phone')}
         >
           Phones
         </button>
         <button
           className={activeButton === 3 ? "active" : ""}
-          onClick={() => handleButtonClick(3)}
+          onClick={() => handleButtonClick(3, 'charger')}
         >
           Chargers
         </button>
         <button
           className={activeButton === 4 ? "active" : ""}
-          onClick={() => handleButtonClick(4)}
+          onClick={() => handleButtonClick(4, 'lcd')}
         >
           LCDs
         </button>
         <button
           className={activeButton === 5 ? "active" : ""}
-          onClick={() => handleButtonClick(5)}
+          onClick={() => handleButtonClick(5, 'cover')}
         >
-          Covers
+          Phone Covers
         </button>
         <button
           className={activeButton === 6 ? "active" : ""}
-          onClick={() => handleButtonClick(6)}
+          onClick={() => handleButtonClick(6, 'industrial machines')}
         >
-          Covers
+          Industrial Machines
         </button>
-        <button
-          className={activeButton === 7 ? "active" : ""}
-          onClick={() => handleButtonClick(7)}
-        >
-          Chargers
-        </button>
-        <button>Chargers</button>
       </div>
 
       <div className="row g-4">
-        {products.map((product) => (
+        {filteredProducts.map((product) => (
           <div key={product.id} className="col-6 col-lg-3">
             <div
               id="products-inner-card"
               onClick={() => {
-                navigate("/product-details");
+                navigate(`/product-details/${product.id}`, { 
+                  state: { product } 
+                });
               }}
             >
               <img
-                src={product.image}
+                src={product.image} // Use the original image property for thumbnails
                 alt={product.productName}
                 className="img-fluid"
               />
@@ -206,17 +247,7 @@ function Gallery() {
                 {product.productName}
               </small>
               <div className="pricing-info">
-                {/* <small
-                  style={{
-                    marginRight: "10px",
-                    textDecoration: "line-through",
-                    color: "#666",
-                  }}
-                >
-                  was ${product.oldPrice.toFixed(2)}
-                </small> */}
                 <div id="price-tag">
-                  {" "}
                   <small>
                     <b>${product.price.toFixed(2)}</b>
                   </small>
