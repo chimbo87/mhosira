@@ -6,7 +6,7 @@ import { FaLongArrowAltRight } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 import shop01 from "../../assets/product01.jpeg";
 import shop02 from "../../assets/product02.jpeg";
-import shop03 from "../../assets/product03.jpeg";
+import shop03 from "../../assets/shop03.jpeg";
 import shop04 from "../../assets/product04.jpeg";
 import shop05 from "../../assets/product05.jpeg";
 import shop06 from "../../assets/product06.jpeg";
@@ -14,6 +14,18 @@ import shop07 from "../../assets/product07.jpeg";
 import shop08 from "../../assets/product08.jpeg";
 import shop09 from "../../assets/product09.jpeg";
 import shop10 from "../../assets/shop10.jpeg";
+import shop12 from "../../assets/shop12.jpeg";
+import shop16 from "../../assets/shop16.jpeg";
+import shop18 from "../../assets/shop18.jpeg";
+import shop20 from "../../assets/shop20.jpeg";
+import shop15 from "../../assets/shop15.jpeg";
+import shop17 from "../../assets/shop17.jpeg";
+import shop19 from "../../assets/shop19.jpeg";
+import shop21 from "../../assets/shop21.jpeg";
+import shop11 from "../../assets/shop11.jpeg";
+import shop13 from "../../assets/shop13.jpg";
+import shop14 from "../../assets/shop14.jpeg";
+import shop22 from "../../assets/shop02.jpeg";
 
 function Gallery() {
   const navigate = useNavigate();
@@ -23,6 +35,28 @@ function Gallery() {
   const [activeButton, setActiveButton] = useState(1);
 
   const Products = [
+    {
+      id: 13,
+      image: shop11,
+      images: [shop13, shop14],
+      productName: " Sewing Machine",
+      price: 140.5,
+      oldPrice: 230.0,
+      category: "industrial machines",
+      description:
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta est dolorum ut quis debitis in reiciendis! Nostrum sit repudiandae, vel officia nisi cupiditate sed sunt suscipit voluptatibus quaerat ab iusto!",
+    },
+    {
+      id: 12,
+      image: shop17,
+      images: [shop15, shop19, shop21],
+      productName: "Samsung Z fold",
+      price: 240.0,
+      oldPrice: 300.0,
+      category: "phone",
+      description:
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta est dolorum ut quis debitis in reiciendis! Nostrum sit repudiandae, vel officia nisi cupiditate sed sunt suscipit voluptatibus quaerat ab iusto!",
+    },
     {
       id: 1,
       image: shop01,
@@ -34,6 +68,17 @@ function Gallery() {
       description:
         "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta est dolorum ut quis debitis in reiciendis! Nostrum sit repudiandae, vel officia nisi cupiditate sed sunt suscipit voluptatibus quaerat ab iusto!",
     },
+    // {
+    //   id: 15,
+    //   image: shop22,
+    //   images: [shop22], 
+    //   productName: "Phone Covers",
+    //   price: 6.99,
+    //   oldPrice: 8.99,
+    //   category: "cover",
+    //   description:
+    //     "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta est dolorum ut quis debitis in reiciendis! Nostrum sit repudiandae, vel officia nisi cupiditate sed sunt suscipit voluptatibus quaerat ab iusto!",
+    // },
     {
       id: 2,
       image: shop02,
@@ -90,6 +135,17 @@ function Gallery() {
         "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta est dolorum ut quis debitis in reiciendis! Nostrum sit repudiandae, vel officia nisi cupiditate sed sunt suscipit voluptatibus quaerat ab iusto!",
     },
     {
+      id: 11,
+      image: shop16,
+      images: [shop16, shop18, shop20],
+      productName: "Overlocking Sewing Machine",
+      price: 220.5,
+      oldPrice: 300.0,
+      category: "industrial machines",
+      description:
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta est dolorum ut quis debitis in reiciendis! Nostrum sit repudiandae, vel officia nisi cupiditate sed sunt suscipit voluptatibus quaerat ab iusto!",
+    },
+    {
       id: 7,
       image: shop07,
       images: [shop07, shop08, shop09, shop10],
@@ -125,7 +181,7 @@ function Gallery() {
     {
       id: 10,
       image: shop10,
-      images: [shop10, shop01, shop02, shop03],
+      images: [shop10, shop12],
       productName: "T-shirt Printing Machine",
       price: 320.5,
       oldPrice: 380.0,
@@ -133,6 +189,8 @@ function Gallery() {
       description:
         "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta est dolorum ut quis debitis in reiciendis! Nostrum sit repudiandae, vel officia nisi cupiditate sed sunt suscipit voluptatibus quaerat ab iusto!",
     },
+   
+ 
   ];
 
   const handleButtonClick = (buttonId, category) => {
