@@ -22,12 +22,13 @@
   align-items: center;
   justify-content: center;
   font-family: "Raleway", serif;
-  color: #fafdfc;
+  color: #faebd7;
   margin-bottom: 15px;
   font-weight: 700;
 }
 #footer-page-card p {
   color: #fff;
+  line-height: 2.5rem;
 }
 #footer-icons-cards {
   display: flex;
@@ -35,18 +36,20 @@
   align-items: center;
   justify-content: center;
   border-top: 2px solid #dcdcdc6d;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-bottom: 10px;
 }
 #footer-icon{
     font-size: 25px;
     color: #f1975b;
-    margin: 0px 10px;
+    margin: 5px 10px;
     cursor: pointer;
 }
-#footer-rtys{
-    margin-top: 15px;
-}
 #footer-rtys small{
-    color: #fff;
+  color: #f1975b;
+}
+#footer-page-card img{
+width: 150px;
+height: 100px;
+object-fit: contain;
+margin-bottom: 20px;
 }

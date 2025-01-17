@@ -22,7 +22,7 @@
   margin-top: 50px;
 }
 #testimonial-offer {
-  border: 4px solid transparent;
+  border: 2px solid transparent;
   border-image: linear-gradient(to right,  #1d2f61, #f1975b,#1d2f61) 1;
   display: flex;
   flex-direction: column;
@@ -94,7 +94,7 @@
 }
 @media (max-width: 750px) {
   #testimonial-offer {
-    border: 4px solid transparent;
+    border: 2px solid transparent;
     border-image: linear-gradient(to right,  #1d2f61, #f1975b,#1d2f61) 1;
     display: flex;
     flex-direction: column;
