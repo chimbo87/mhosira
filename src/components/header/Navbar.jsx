@@ -22,7 +22,7 @@ function Navbar() {
       <nav className="navbar navbar-expand-lg">
         <div className="container-fluid">
           <div id="logo-box">
-            <img src={userlogo} alt="logo" />
+            <img src={userlogo} alt="logo" onClick={() => handleNavClick("/")}/>
           </div>
           <div id="nav-chat-btn">
             <button
