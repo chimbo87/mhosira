@@ -14,7 +14,7 @@
   padding: 8px 8px;
   border: none;
   border-radius: 4px;
-  background-image: linear-gradient(to right, #1d2f61, #f1975b);
+  background-image: linear-gradient(to right, #1d2f61, #1d2f61);
   color: #fff;
   font-weight: 700;
 }
@@ -28,7 +28,7 @@
   align-items: center;
   justify-content: start;
   width: 150px;
-  height: 80px;
+  height: 60px;
 }
 #logo-box img {
   width: 100%;

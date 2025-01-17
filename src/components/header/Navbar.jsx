@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Navbar.css";
 import { FaWhatsapp } from "react-icons/fa";
-import userlogo from "../../assets/mobilandlogo.png";
+import userlogo from "../../assets/mobilelogo.png";
 import { useNavigate, useLocation } from "react-router-dom";
 
 function Navbar() {
