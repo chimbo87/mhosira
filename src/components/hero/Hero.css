@@ -37,7 +37,7 @@
 
 @media (max-width: 750px) {
   #hero-box-container {
-    height: 50vh;
+    height: 80vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -56,7 +56,7 @@
     background: -webkit-linear-gradient(0deg, #fff, #f1975b, #fff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 20px;
+    font-size: 28px;
     font-family: "Bebas Neue", serif;
     text-align: center;
     font-weight: 700;
@@ -65,5 +65,6 @@
   #hero-banner p {
     color: #fff;
     text-align: center;
+    font-size: 18px;
   }
 }
