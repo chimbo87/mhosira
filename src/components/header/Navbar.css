@@ -5,8 +5,32 @@
   right: 0%;
   z-index: 100;
   background-color: #f4f3f3;
- /* box-shadow: 2px 1px #dcdcdc8e; */
+  /* box-shadow: 2px 1px #dcdcdc8e; */
 }
+#nav-top-box {
+  width: 100%;
+  height: auto;
+
+}
+#nav-top-wrap{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #dcdcdcc0;
+  margin: 0px 12px;
+  padding: 2px 4px;
+  border-radius: 2px;
+}
+#nav-top-card{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#nav-top-card small{
+color: #1d2f61;
+font-weight: 600;
+}
+
 #nav-chat-btn {
   display: none;
 }
@@ -80,7 +104,9 @@
     display: block;
     padding: 10px 5px;
   }
-
+#nav-top-cardsmall{
+  display: none;
+}
   .nav-item.active::after {
     content: "";
     position: absolute;
@@ -114,7 +140,7 @@
   }
   #nav-link {
     color: #1d2f61;
-   margin: 20px 0px;
+    margin: 20px 0px;
     font-weight: 700;
     font-size: 18px;
   }
@@ -123,7 +149,7 @@
   #nav-chat-btn {
     display: block;
     padding: 2px 2px;
-  margin-left: -80px;
-  font-size: 14px;
+    margin-left: -80px;
+    font-size: 14px;
   }
 }

@@ -21,7 +21,7 @@ function Footer() {
               <GrLocation /> Address
             </h5>
             <p>
-              1002 Mars Road<br></br>Jupiter Town<br></br>Harare Zimbabwe
+              Cnr Cameron & J Moyo Road<br></br>Dubai Mall, Shop No# F1<br></br>Harare Zimbabwe
             </p>
           </div>
         </div>

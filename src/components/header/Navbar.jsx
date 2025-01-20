@@ -1,28 +1,60 @@
 import React, { useState } from "react";
 import "./Navbar.css";
 import { FaWhatsapp } from "react-icons/fa";
+import { IoLogoInstagram } from "react-icons/io5";
 import userlogo from "../../assets/mobilelogo.png";
 import { useNavigate, useLocation } from "react-router-dom";
+import { FiFacebook } from "react-icons/fi";
+import { TbBrandTiktok } from "react-icons/tb";
 
 function Navbar() {
   const [isNavCollapsed, setIsNavCollapsed] = useState(true);
-
   const navigate = useNavigate();
   const location = useLocation();
   const [activeItem, setActiveItem] = useState(location.pathname);
 
   const handleNavClick = (path) => {
     setActiveItem(path);
-    setIsNavCollapsed(true); 
+    setIsNavCollapsed(true);
     navigate(path);
   };
 
   return (
     <>
-      <nav className="navbar navbar-expand-lg">
+      <nav
+        className="navbar navbar-expand-lg"
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          justifyContent: "space-between",
+        }}
+      >
+        <div id="nav-top-box">
+          <div id="nav-top-wrap">
+            <div id="nav-top-card">
+              <small>mobilelandx@gmail.com</small>
+            </div>
+            <div id="nav-top-card">
+              <small id="nav-top-cardsmall">Cnr Cameron & J Moyo, Dubai mall shop #F1</small>
+            </div>
+            <div id="nav-top-card">
+              <small id="nav-top-cardsmall"> +26377 360 9855 / </small> 
+              <small>{' '} +26371 367 6303</small>
+            </div>
+            <div id="nav-top-card">
+              <small>
+                <IoLogoInstagram /> <FiFacebook /> <TbBrandTiktok />
+              </small>
+            </div>
+          </div>
+        </div>
         <div className="container-fluid">
           <div id="logo-box">
-            <img src={userlogo} alt="logo" onClick={() => handleNavClick("/")}/>
+            <img
+              src={userlogo}
+              alt="logo"
+              onClick={() => handleNavClick("/")}
+            />
           </div>
           <div id="nav-chat-btn">
             <button
