@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Spin } from "antd";
+import { Spin, Pagination } from "antd";
 import "./Gallery.css";
 import { BiFilterAlt } from "react-icons/bi";
 import { FaLongArrowAltRight } from "react-icons/fa";
@@ -25,7 +25,33 @@ import shop21 from "../../assets/shop21.jpeg";
 import shop11 from "../../assets/shop11.jpeg";
 import shop13 from "../../assets/shop13.jpg";
 import shop14 from "../../assets/shop14.jpeg";
-import shop22 from "../../assets/shop02.jpeg";
+import shop22 from "../../assets/products/product01.jpeg";
+
+import shop23 from "../../assets/products/product02.jpg";
+import shop24 from "../../assets/products/product03.jpg";
+import shop25 from "../../assets/products/product04.jpeg";
+import shop26 from "../../assets/products/product05.jpeg";
+import shop27 from "../../assets/products/product06.jpeg";
+import shop28 from "../../assets/products/product07.jpeg";
+import shop29 from "../../assets/products/product08.jpeg";
+import shop30 from "../../assets/products/product09.jpeg";
+import shop31 from "../../assets/products/product10.jpeg";
+import shop32 from "../../assets/products/product16.jpeg";
+import shop33 from "../../assets/products/product11.jpeg";
+import shop34 from "../../assets/products/product12.jpeg";
+import shop35 from "../../assets/products/product13.jpeg";
+import shop36 from "../../assets/products/product14.jpeg";
+import shop37 from "../../assets/products/product15.jpeg";
+import shop38 from "../../assets/products/product16.jpeg";
+import shop39 from "../../assets/products/product17.jpeg";
+import shop40 from "../../assets/products/product18.jpeg";
+import shop41 from "../../assets/products/product19.jpeg";
+import shop42 from "../../assets/products/product20.jpeg";
+import shop43 from "../../assets/products/product21.jpeg";
+import shop44 from "../../assets/products/product22.jpeg";
+import shop45 from "../../assets/products/product23.jpeg";
+import shop46 from "../../assets/products/product24.jpeg";
+import shop47 from "../../assets/products/product25.jpeg";
 
 function Gallery() {
   const navigate = useNavigate();
@@ -33,6 +59,10 @@ function Gallery() {
   const [products, setProducts] = useState([]);
   const [filteredProducts, setFilteredProducts] = useState([]);
   const [activeButton, setActiveButton] = useState(1);
+  
+  // Pagination states
+  const [currentPage, setCurrentPage] = useState(1);
+  const pageSize = 20; // Number of items per page
 
   const Products = [
     {
@@ -60,7 +90,7 @@ function Gallery() {
     {
       id: 1,
       image: shop01,
-      images: [shop01, shop02, shop03, shop04], 
+      images: [shop01, shop02, shop03, shop04],
       productName: "Huawei P30 LCD",
       price: 6.99,
       oldPrice: 8.99,
@@ -68,17 +98,17 @@ function Gallery() {
       description:
         "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta est dolorum ut quis debitis in reiciendis! Nostrum sit repudiandae, vel officia nisi cupiditate sed sunt suscipit voluptatibus quaerat ab iusto!",
     },
-    // {
-    //   id: 15,
-    //   image: shop22,
-    //   images: [shop22], 
-    //   productName: "Phone Covers",
-    //   price: 6.99,
-    //   oldPrice: 8.99,
-    //   category: "cover",
-    //   description:
-    //     "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta est dolorum ut quis debitis in reiciendis! Nostrum sit repudiandae, vel officia nisi cupiditate sed sunt suscipit voluptatibus quaerat ab iusto!",
-    // },
+    {
+      id: 15,
+      image: shop22,
+      images: [shop22],
+      productName: "Phone Covers",
+      price: 6.99,
+      oldPrice: 8.99,
+      category: "cover",
+      description:
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta est dolorum ut quis debitis in reiciendis! Nostrum sit repudiandae, vel officia nisi cupiditate sed sunt suscipit voluptatibus quaerat ab iusto!",
+    },
     {
       id: 2,
       image: shop02,
@@ -189,21 +219,287 @@ function Gallery() {
       description:
         "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta est dolorum ut quis debitis in reiciendis! Nostrum sit repudiandae, vel officia nisi cupiditate sed sunt suscipit voluptatibus quaerat ab iusto!",
     },
-   
- 
-  ];
 
+    {
+      id: 16,
+      image: shop23,
+      images: [shop10, shop12],
+      productName: "T-shirt Printing Machine",
+      price: 320.5,
+      oldPrice: 380.0,
+      category: "industrial machines",
+      description:
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta est dolorum ut quis debitis in reiciendis! Nostrum sit repudiandae, vel officia nisi cupiditate sed sunt suscipit voluptatibus quaerat ab iusto!",
+    },
+    {
+      id: 17,
+      image: shop24,
+      images: [shop10, shop12],
+      productName: "T-shirt Printing Machine",
+      price: 320.5,
+      oldPrice: 380.0,
+      category: "industrial machines",
+      description:
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta est dolorum ut quis debitis in reiciendis! Nostrum sit repudiandae, vel officia nisi cupiditate sed sunt suscipit voluptatibus quaerat ab iusto!",
+    },
+    {
+      id: 18,
+      image: shop24,
+      images: [shop10, shop12],
+      productName: "T-shirt Printing Machine",
+      price: 320.5,
+      oldPrice: 380.0,
+      category: "industrial machines",
+      description:
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta est dolorum ut quis debitis in reiciendis! Nostrum sit repudiandae, vel officia nisi cupiditate sed sunt suscipit voluptatibus quaerat ab iusto!",
+    },
+    {
+      id: 19,
+      image: shop25,
+      images: [shop10, shop12],
+      productName: "T-shirt Printing Machine",
+      price: 320.5,
+      oldPrice: 380.0,
+      category: "industrial machines",
+      description:
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta est dolorum ut quis debitis in reiciendis! Nostrum sit repudiandae, vel officia nisi cupiditate sed sunt suscipit voluptatibus quaerat ab iusto!",
+    },
+    {
+      id: 20,
+      image: shop26,
+      images: [shop10, shop12],
+      productName: "T-shirt Printing Machine",
+      price: 320.5,
+      oldPrice: 380.0,
+      category: "industrial machines",
+      description:
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta est dolorum ut quis debitis in reiciendis! Nostrum sit repudiandae, vel officia nisi cupiditate sed sunt suscipit voluptatibus quaerat ab iusto!",
+    },
+    {
+      id: 21,
+      image: shop27,
+      images: [shop10, shop12],
+      productName: "T-shirt Printing Machine",
+      price: 320.5,
+      oldPrice: 380.0,
+      category: "industrial machines",
+      description:
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta est dolorum ut quis debitis in reiciendis! Nostrum sit repudiandae, vel officia nisi cupiditate sed sunt suscipit voluptatibus quaerat ab iusto!",
+    },
+    {
+      id: 22,
+      image: shop28,
+      images: [shop10, shop12],
+      productName: "T-shirt Printing Machine",
+      price: 320.5,
+      oldPrice: 380.0,
+      category: "industrial machines",
+      description:
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta est dolorum ut quis debitis in reiciendis! Nostrum sit repudiandae, vel officia nisi cupiditate sed sunt suscipit voluptatibus quaerat ab iusto!",
+    },
+    {
+      id: 23,
+      image: shop29,
+      images: [shop10, shop12],
+      productName: "T-shirt Printing Machine",
+      price: 320.5,
+      oldPrice: 380.0,
+      category: "industrial machines",
+      description:
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta est dolorum ut quis debitis in reiciendis! Nostrum sit repudiandae, vel officia nisi cupiditate sed sunt suscipit voluptatibus quaerat ab iusto!",
+    },
+    {
+      id: 24,
+      image: shop30,
+      images: [shop10, shop12],
+      productName: "T-shirt Printing Machine",
+      price: 320.5,
+      oldPrice: 380.0,
+      category: "industrial machines",
+      description:
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta est dolorum ut quis debitis in reiciendis! Nostrum sit repudiandae, vel officia nisi cupiditate sed sunt suscipit voluptatibus quaerat ab iusto!",
+    },
+    {
+      id: 25,
+      image: shop31,
+      images: [shop10, shop12],
+      productName: "T-shirt Printing Machine",
+      price: 320.5,
+      oldPrice: 380.0,
+      category: "industrial machines",
+      description:
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta est dolorum ut quis debitis in reiciendis! Nostrum sit repudiandae, vel officia nisi cupiditate sed sunt suscipit voluptatibus quaerat ab iusto!",
+    },
+    {
+      id: 26,
+      image: shop32,
+      images: [shop10, shop12],
+      productName: "T-shirt Printing Machine",
+      price: 320.5,
+      oldPrice: 380.0,
+      category: "industrial machines",
+      description:
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta est dolorum ut quis debitis in reiciendis! Nostrum sit repudiandae, vel officia nisi cupiditate sed sunt suscipit voluptatibus quaerat ab iusto!",
+    },
+    {
+      id: 27,
+      image: shop33,
+      images: [shop10, shop12],
+      productName: "T-shirt Printing Machine",
+      price: 320.5,
+      oldPrice: 380.0,
+      category: "industrial machines",
+      description:
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta est dolorum ut quis debitis in reiciendis! Nostrum sit repudiandae, vel officia nisi cupiditate sed sunt suscipit voluptatibus quaerat ab iusto!",
+    },
+    {
+      id: 28,
+      image: shop34,
+      images: [shop10, shop12],
+      productName: "T-shirt Printing Machine",
+      price: 320.5,
+      oldPrice: 380.0,
+      category: "industrial machines",
+      description:
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta est dolorum ut quis debitis in reiciendis! Nostrum sit repudiandae, vel officia nisi cupiditate sed sunt suscipit voluptatibus quaerat ab iusto!",
+    },
+    {
+      id: 29,
+      image: shop35,
+      images: [shop10, shop12],
+      productName: "T-shirt Printing Machine",
+      price: 320.5,
+      oldPrice: 380.0,
+      category: "industrial machines",
+      description:
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta est dolorum ut quis debitis in reiciendis! Nostrum sit repudiandae, vel officia nisi cupiditate sed sunt suscipit voluptatibus quaerat ab iusto!",
+    },
+
+    //here
+
+    {
+      id: 30,
+      image: shop35,
+      images: [shop10, shop12],
+      productName: "T-shirt Printing Machine",
+      price: 320.5,
+      oldPrice: 380.0,
+      category: "industrial machines",
+      description:
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta est dolorum ut quis debitis in reiciendis! Nostrum sit repudiandae, vel officia nisi cupiditate sed sunt suscipit voluptatibus quaerat ab iusto!",
+    },
+    {
+      id: 31,
+      image: shop36,
+      images: [shop10, shop12],
+      productName: "T-shirt Printing Machine",
+      price: 320.5,
+      oldPrice: 380.0,
+      category: "industrial machines",
+      description:
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta est dolorum ut quis debitis in reiciendis! Nostrum sit repudiandae, vel officia nisi cupiditate sed sunt suscipit voluptatibus quaerat ab iusto!",
+    },
+    {
+      id: 32,
+      image: shop37,
+      images: [shop10, shop12],
+      productName: "T-shirt Printing Machine",
+      price: 320.5,
+      oldPrice: 380.0,
+      category: "industrial machines",
+      description:
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta est dolorum ut quis debitis in reiciendis! Nostrum sit repudiandae, vel officia nisi cupiditate sed sunt suscipit voluptatibus quaerat ab iusto!",
+    },
+    {
+      id: 33,
+      image: shop38,
+      images: [shop10, shop12],
+      productName: "T-shirt Printing Machine",
+      price: 320.5,
+      oldPrice: 380.0,
+      category: "industrial machines",
+      description:
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta est dolorum ut quis debitis in reiciendis! Nostrum sit repudiandae, vel officia nisi cupiditate sed sunt suscipit voluptatibus quaerat ab iusto!",
+    },
+    {
+      id: 34,
+      image: shop39,
+      images: [shop10, shop12],
+      productName: "T-shirt Printing Machine",
+      price: 320.5,
+      oldPrice: 380.0,
+      category: "industrial machines",
+      description:
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta est dolorum ut quis debitis in reiciendis! Nostrum sit repudiandae, vel officia nisi cupiditate sed sunt suscipit voluptatibus quaerat ab iusto!",
+    },
+    {
+      id: 35,
+      image: shop40,
+      images: [shop10, shop12],
+      productName: "T-shirt Printing Machine",
+      price: 320.5,
+      oldPrice: 380.0,
+      category: "industrial machines",
+      description:
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta est dolorum ut quis debitis in reiciendis! Nostrum sit repudiandae, vel officia nisi cupiditate sed sunt suscipit voluptatibus quaerat ab iusto!",
+    },
+    {
+      id: 36,
+      image: shop41,
+      images: [shop10, shop12],
+      productName: "T-shirt Printing Machine",
+      price: 320.5,
+      oldPrice: 380.0,
+      category: "industrial machines",
+      description:
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta est dolorum ut quis debitis in reiciendis! Nostrum sit repudiandae, vel officia nisi cupiditate sed sunt suscipit voluptatibus quaerat ab iusto!",
+    },
+    {
+      id: 37,
+      image: shop42,
+      images: [shop10, shop12],
+      productName: "T-shirt Printing Machine",
+      price: 320.5,
+      oldPrice: 380.0,
+      category: "industrial machines",
+      description:
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta est dolorum ut quis debitis in reiciendis! Nostrum sit repudiandae, vel officia nisi cupiditate sed sunt suscipit voluptatibus quaerat ab iusto!",
+    },
+    {
+      id: 38,
+      image: shop43,
+      images: [shop10, shop12],
+      productName: "T-shirt Printing Machine",
+      price: 320.5,
+      oldPrice: 380.0,
+      category: "industrial machines",
+      description:
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta est dolorum ut quis debitis in reiciendis! Nostrum sit repudiandae, vel officia nisi cupiditate sed sunt suscipit voluptatibus quaerat ab iusto!",
+    },
+    {
+      id: 39,
+      image: shop44,
+      images: [shop10, shop12],
+      productName: "T-shirt Printing Machine",
+      price: 320.5,
+      oldPrice: 380.0,
+      category: "industrial machines",
+      description:
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta est dolorum ut quis debitis in reiciendis! Nostrum sit repudiandae, vel officia nisi cupiditate sed sunt suscipit voluptatibus quaerat ab iusto!",
+    },
+  ];
   const handleButtonClick = (buttonId, category) => {
     setActiveButton(buttonId);
     filterProducts(category);
+    setCurrentPage(1); // Reset to first page when filtering
   };
 
   const filterProducts = (category) => {
-    if (!category || category === 'all') {
+    if (!category || category === "all") {
       setFilteredProducts(products);
     } else {
-      const filtered = products.filter(product => 
-        product.category.toLowerCase() === category.toLowerCase()
+      const filtered = products.filter(
+        (product) => product.category.toLowerCase() === category.toLowerCase()
       );
       setFilteredProducts(filtered);
     }
@@ -222,6 +518,18 @@ function Gallery() {
     fetchProducts();
   }, []);
 
+  // Get current products for pagination
+  const indexOfLastProduct = currentPage * pageSize;
+  const indexOfFirstProduct = indexOfLastProduct - pageSize;
+  const currentProducts = filteredProducts.slice(indexOfFirstProduct, indexOfLastProduct);
+
+  // Handle page change
+  const handlePageChange = (page) => {
+    setCurrentPage(page);
+    // Scroll to top of gallery when page changes
+    document.getElementById('gallery-box')?.scrollIntoView({ behavior: 'smooth' });
+  };
+
   if (loading) {
     return (
       <div className="loading-container">
@@ -235,7 +543,7 @@ function Gallery() {
       <div id="gallery-box-filterbtns">
         <button
           className={activeButton === 1 ? "active" : ""}
-          onClick={() => handleButtonClick(1, 'all')}
+          onClick={() => handleButtonClick(1, "all")}
           style={{
             display: "flex",
             alignItems: "center",
@@ -247,49 +555,49 @@ function Gallery() {
         </button>
         <button
           className={activeButton === 2 ? "active" : ""}
-          onClick={() => handleButtonClick(2, 'phone')}
+          onClick={() => handleButtonClick(2, "phone")}
         >
           Phones
         </button>
         <button
           className={activeButton === 3 ? "active" : ""}
-          onClick={() => handleButtonClick(3, 'charger')}
+          onClick={() => handleButtonClick(3, "charger")}
         >
           Chargers
         </button>
         <button
           className={activeButton === 4 ? "active" : ""}
-          onClick={() => handleButtonClick(4, 'lcd')}
+          onClick={() => handleButtonClick(4, "lcd")}
         >
           LCDs
         </button>
         <button
           className={activeButton === 5 ? "active" : ""}
-          onClick={() => handleButtonClick(5, 'cover')}
+          onClick={() => handleButtonClick(5, "cover")}
         >
           Phone Covers
         </button>
         <button
           className={activeButton === 6 ? "active" : ""}
-          onClick={() => handleButtonClick(6, 'industrial machines')}
+          onClick={() => handleButtonClick(6, "industrial machines")}
         >
           Industrial Machines
         </button>
       </div>
 
       <div className="row g-4">
-        {filteredProducts.map((product) => (
+        {currentProducts.map((product) => (
           <div key={product.id} className="col-6 col-lg-3">
             <div
               id="products-inner-card"
               onClick={() => {
-                navigate(`/product-details/${product.id}`, { 
-                  state: { product } 
+                navigate(`/product-details/${product.id}`, {
+                  state: { product },
                 });
               }}
             >
               <img
-                src={product.image} // Use the original image property for thumbnails
+                src={product.image}
                 alt={product.productName}
                 className="img-fluid"
               />
@@ -315,6 +623,21 @@ function Gallery() {
             </div>
           </div>
         ))}
+      </div>
+
+      {/* Pagination */}
+      <div style={{ 
+        display: 'flex', 
+        justifyContent: 'center', 
+        margin: '2rem 0' 
+      }}>
+        <Pagination
+          current={currentPage}
+          total={filteredProducts.length}
+          pageSize={pageSize}
+          onChange={handlePageChange}
+          showSizeChanger={false}
+        />
       </div>
     </div>
   );
