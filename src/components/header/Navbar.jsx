@@ -4,8 +4,11 @@ import { FaWhatsapp } from "react-icons/fa";
 import { IoLogoInstagram } from "react-icons/io5";
 import userlogo from "../../assets/mobilelogo.png";
 import { useNavigate, useLocation } from "react-router-dom";
+import { MdLocationPin } from "react-icons/md";
+import { MdEmail } from "react-icons/md";
 import { FiFacebook } from "react-icons/fi";
 import { TbBrandTiktok } from "react-icons/tb";
+import { MdCall } from "react-icons/md";
 
 function Navbar() {
   const [isNavCollapsed, setIsNavCollapsed] = useState(true);
@@ -32,14 +35,14 @@ function Navbar() {
         <div id="nav-top-box">
           <div id="nav-top-wrap">
             <div id="nav-top-card">
-              <small>mobilelandx@gmail.com</small>
+              <small><MdEmail /> mobilelandx@gmail.com</small>
             </div>
             <div id="nav-top-card">
-              <small id="nav-top-cardsmall">Cnr Cameron & J Moyo, Dubai mall shop #F1</small>
+              <small id="nav-top-cardsmall"><MdLocationPin /> Cnr Cameron & J Moyo, Dubai mall shop #F1</small>
             </div>
             <div id="nav-top-card">
-              <small id="nav-top-cardsmall"> +26377 360 9855 / </small> 
-              <small>{' '} +26371 367 6303</small>
+              <small id="nav-top-cardsmall"><MdCall />  +26377 360 9855 / </small> 
+              <small id="nav-top-cardsmall">{' '} +26371 367 6303</small>
             </div>
             <div id="nav-top-card">
               <small>

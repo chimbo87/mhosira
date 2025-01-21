@@ -27,19 +27,19 @@
   letter-spacing: 0.2rem;
 }
 #about-page-card h2{
-  color:#f1975b;
+  color:#0b5d0b;
   font-family: "Bebas Neue", serif;
   font-weight: 700;
   letter-spacing: 0.2rem;
 }
 #about-page-card h3{
-  color: #f1975b;
+  color: #0b5d0b;
   font-weight: 200;
   font-family: "Raleway", serif;
   text-align: center;
 }
 #about-team-card h2{
-  color:#f1975b;
+  color:#0b5d0b;
   font-family: "Bebas Neue", serif;
   font-weight: 700;
   letter-spacing: 0.2rem;
@@ -79,7 +79,7 @@ letter-spacing: 0.2rem;
   #team-icons{
     margin: 0px 10px;
     font-size: 20px;
-    color: #f1975b;
+    color: #0b5d0b;
     cursor: pointer;
   }
 #about-page-box {
@@ -113,7 +113,7 @@ letter-spacing: 0.2rem;
   border-radius: 4px;
 }
 #about-page-cardbanner h2{
-  background: -webkit-linear-gradient(0deg, #fff, #f1975b, #fff);
+  background: -webkit-linear-gradient(0deg, #fff, #0b5d0b, #fff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-align: center;
@@ -126,7 +126,7 @@ letter-spacing: 0.2rem;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border: 4px solid #f1975b;
+  border: 4px solid #0b5d0b;
  margin: 40px;
   border-radius: 4px;
 }
@@ -136,7 +136,7 @@ letter-spacing: 0.2rem;
   border-radius: 4px;
 }
 #asked-qtns h2{
-  color: #f1975b;
+  color: #0b5d0b;
   margin-top: 15px;
   font-family: "Bebas Neue", serif;
   font-weight: 700;
@@ -180,7 +180,7 @@ letter-spacing: 0.2rem;
       
       }
       #about-page-cardbanner h2{
-        background: -webkit-linear-gradient(0deg, #fff, #f1975b, #fff);
+        background: -webkit-linear-gradient(0deg, #fff, #0b5d0b, #fff);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         text-align: center;
@@ -193,7 +193,7 @@ letter-spacing: 0.2rem;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        border: 2px solid #f1975b;
+        border: 2px solid #0b5d0b;
         border-radius: 4px;
         background-color: #363635;
       }

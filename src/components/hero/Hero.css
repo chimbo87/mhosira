@@ -15,13 +15,13 @@
 #hero-banner button {
   padding: 10px 35px;
   border: 4px solid transparent;
-  border-image: linear-gradient(to right, #fff, #f1975b, #fff) 1;
+  border-image: linear-gradient(to right, #fff,#0d7a0d, #fff) 1;
   border-radius: 4px;
   color: #fff;
   background-color: transparent;
 }
 #hero-banner h1 {
-  background: -webkit-linear-gradient(0deg, #fff, #f1975b, #fff);
+  background: -webkit-linear-gradient(0deg, #fff,   #0d7a0d, #fff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 40px;
@@ -53,7 +53,7 @@
     padding: 20px;
   }
   #hero-banner h1 {
-    background: -webkit-linear-gradient(0deg, #fff, #f1975b, #fff);
+    background: -webkit-linear-gradient(0deg, #fff,   #0d7a0d, #fff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 28px;

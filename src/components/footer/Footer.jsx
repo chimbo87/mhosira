@@ -18,17 +18,18 @@ function Footer() {
         <div class="col-lg-3 col-md-4">
           <div id="footer-page-card">
             <h5>
-              <GrLocation /> Address
+              <span></span>Address<span></span>
             </h5>
             <p>
-              Cnr Cameron & J Moyo Road<br></br>Dubai Mall, Shop No# F1<br></br>Harare Zimbabwe
+              Cnr Cameron & J Moyo Road<br></br>Dubai Mall, Shop No# F1<br></br>
+              Harare Zimbabwe
             </p>
           </div>
         </div>
         <div class="col-lg-3 col-md-4">
           <div id="footer-page-card">
             <h5>
-              <HiOutlineMail /> Emails
+              <span></span>Emails<span></span>
             </h5>
             <p>
               mobilelandx@gmail.com<br></br>
@@ -39,7 +40,7 @@ function Footer() {
         <div class="col-lg-3 col-md-4">
           <div id="footer-page-card">
             <h5>
-              <MdOutlinePhone /> Phone
+              <span></span>Phone<span></span>
             </h5>
             <p>
               +26377 360 9855<br></br> +26371 367 6303 <br></br> +26377 508 0424
@@ -49,32 +50,45 @@ function Footer() {
         <div class="col-lg-3 col-md-4">
           <div id="footer-page-card">
             <h5>
-              <SlUserFollow /> Follow Us
+              <span></span>Our Services<span></span>
             </h5>
-            <img src={userlogo} alt="logo" />
+            <p>
+              Phone Repairs<br></br> Phone Accessories<br></br> Freight Services
+            </p>
+            {/* <img src={userlogo} alt="logo" />
             <div>
               <FiFacebook id="footer-icon" />
               <FaInstagram id="footer-icon" />
               <RiTiktokLine id="footer-icon" />
               <FaWhatsapp id="footer-icon" />
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
       <div id="footer-icons-cards" className="container">
-        <p style={{color:"white", marginTop:"10px"}}> &copy; Mobileland 2025</p>
-        <div id="footer-rtys">
-          <small>
-            Crafted by:
-            <a
-              href="https://wa.me/27677366141"
-              target="_blank"
-              style={{ color: "#f1975b", marginLeft:"5px"}}
-            >
-             CHIMBO
-            </a>
-          </small>
+        <div>
+          <FiFacebook id="footer-icon" />
+          <FaInstagram id="footer-icon" />
+          <RiTiktokLine id="footer-icon" />
+          <FaWhatsapp id="footer-icon" />
         </div>
+        <small style={{ color: "#faebd7" }}>
+          &copy; Mobileland 2025 Crafted by:
+          <a
+            href="https://wa.me/27677366141"
+            target="_blank"
+            style={{
+              color: "#0b5d0b",
+              marginLeft: "5px",
+              border: "1px solid #faebd7",
+              backgroundColor: "#faebd7",
+              textDecoration: "none",
+              borderRadius:"2px"
+            }}
+          >
+            chimbo
+          </a>
+        </small>
       </div>
     </div>
   );
