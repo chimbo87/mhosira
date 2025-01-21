@@ -16,9 +16,9 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #dcdcdccf;
-  margin: 0px 12px;
-  padding: 2px 4px;
+  background-color: #c9c9c9ec;
+  margin: 0px 10px;
+  padding: 2px 6px;
   border-radius: 2px;
 }
 #nav-top-card{
@@ -27,8 +27,9 @@
   justify-content: space-between;
 }
 #nav-top-card small{
-color: #1d2f61;
+color: #136a13;
 font-weight: 600;
+font-family: "Raleway", serif;
 }
 
 #nav-chat-btn {
