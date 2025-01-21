@@ -55,14 +55,27 @@ function About() {
           </div>
         </div>
       </div>
-      <div className="container">
-        <div id="about-page-cardbanner">
-          <div id="about-page-cardbannercard">
-            <h2>
-              With over 10 years of excellence in mobile device care, we've
-              built our reputation on expert phone repairs, quality accessories,
-              and reliable freight services. 
-            </h2>
+      <div className="container" id="about-page-cardbanner">
+        <div class="row">
+          <div class="col-lg-6 col-md-4">
+            <div id="about-page-cardbannercard">
+              <h2>
+                With over 10 years of excellence in mobile device care, we've
+                built our reputation on expert phone repairs, quality
+                accessories, and reliable freight services.
+              </h2>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-4">
+            <div id="about-page-cardbannercardli">
+              <ul>
+                <li>Commitment</li>
+                <li>Compassion</li>
+                <li>Respect</li>
+                <li>Ethical</li>
+                <li>Affodability</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
@@ -130,7 +143,7 @@ function About() {
               class="accordion-collapse collapse"
               data-bs-parent="#accordionFlushExample"
             >
-              <div class="accordion-body" style={{ color: "#f1975b" }}>
+              <div class="accordion-body" style={{ color: "#0b5d0b" }}>
                 Most repairs are completed within 1-2 hours, with complex
                 repairs taking up to 24 hours. We prioritize quick turnaround
                 while ensuring quality work. You'll receive regular updates
@@ -157,7 +170,7 @@ function About() {
               class="accordion-collapse collapse"
               data-bs-parent="#accordionFlushExample"
             >
-              <div class="accordion-body" style={{ color: "#f1975b" }}>
+              <div class="accordion-body" style={{ color: "#0b5d0b" }}>
                 Yes, all our repairs come with a 90-day warranty covering both
                 parts and labor. If you experience any issues related to our
                 repair work within this period, we'll fix it free of charge.
@@ -185,7 +198,7 @@ function About() {
               class="accordion-collapse collapse"
               data-bs-parent="#accordionFlushExample"
             >
-              <div class="accordion-body" style={{ color: "#f1975b" }}>
+              <div class="accordion-body" style={{ color: "#0b5d0b" }}>
                 We accept multiple payment methods for your convenience,
                 including cash, all major credit/debit cards, bank transfers,
                 and mobile payment solutions. We also offer flexible payment
@@ -213,7 +226,7 @@ function About() {
               class="accordion-collapse collapse"
               data-bs-parent="#accordionFlushExample"
             >
-              <div class="accordion-body" style={{ color: "#f1975b" }}>
+              <div class="accordion-body" style={{ color: "#0b5d0b" }}>
                 Absolutely! We only use high-quality genuine or
                 manufacturer-certified replacement parts for all our repairs.
                 This ensures optimal performance, maintains your device's value,
@@ -241,7 +254,7 @@ function About() {
               class="accordion-collapse collapse"
               data-bs-parent="#accordionFlushExample"
             >
-              <div class="accordion-body" style={{ color: "#f1975b" }}>
+              <div class="accordion-body" style={{ color: "#0b5d0b" }}>
                 Our freight service provides secure, tracked shipping for
                 devices nationwide. Once you book a shipment, we provide
                 protective packaging, real-time tracking, and insurance
