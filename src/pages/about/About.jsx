@@ -1,5 +1,7 @@
 import React from "react";
-import banner01 from "../../assets/home01.jpeg";
+import vector01 from "../../assets/vector01.png";
+import vector02 from "../../assets/vector02.png";
+import vector03 from "../../assets/vector03.png";
 import person01 from "../../assets/person.jpeg";
 import person02 from "../../assets/person02.jpeg";
 import { MdOutlinePhone } from "react-icons/md";
@@ -85,38 +87,38 @@ function About() {
         <div class="row">
           <div class="col-lg-4 col-md-4">
             <div id="team-card">
-              <img src={person01} alt="person" />
+              <img src={vector01} alt="person" />
               <h6>Chief Technical Officer</h6>
               <div id="team-card-icons">
                 <MdOutlinePhone id="team-icons" />
                 <AiOutlineWhatsApp id="team-icons" />
                 <MdOutlineMail id="team-icons" />
               </div>
-              <p>C. Mhosira</p>
+              <p>Chris Mhosira</p>
             </div>
           </div>
           <div class="col-lg-4 col-md-4">
             <div id="team-card">
-              <img src={person02} alt="person" />
+              <img src={vector02} alt="person" />
+              <h6>Sales Manager</h6>
+              <div id="team-card-icons">
+                <MdOutlinePhone id="team-icons" />
+                <AiOutlineWhatsApp id="team-icons" />
+                <MdOutlineMail id="team-icons" />
+              </div>
+              <p>Blessed Mhosira</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4">
+            <div id="team-card">
+              <img src={vector03} alt="person" />
               <h6>Marketing Manager</h6>
               <div id="team-card-icons">
                 <MdOutlinePhone id="team-icons" />
                 <AiOutlineWhatsApp id="team-icons" />
                 <MdOutlineMail id="team-icons" />
               </div>
-              <p>Jane Doe</p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-4">
-            <div id="team-card">
-              <img src={person01} alt="person" />
-              <h6>Marketing Manager</h6>
-              <div id="team-card-icons">
-                <MdOutlinePhone id="team-icons" />
-                <AiOutlineWhatsApp id="team-icons" />
-                <MdOutlineMail id="team-icons" />
-              </div>
-              <p>John Doe</p>
+              <p>Jane Kambiri</p>
             </div>
           </div>
         </div>

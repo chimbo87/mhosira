@@ -85,14 +85,14 @@ function Testimonial() {
         <div class="col-lg-4 col-md-4">
           <div id="testimonial-offer">
             <BsGear id="testimonial-offer-icon" />
-            <h4>2000+ Projects</h4>
+            <h4>20 000+ Projects</h4>
             <p>Completed</p>
           </div>
         </div>
         <div class="col-lg-4 col-md-4">
           <div id="testimonial-offer">
             <AiOutlineUsergroupAdd id="testimonial-offer-icon" />
-            <h4>200+ Happy</h4>
+            <h4>2000+ Happy</h4>
             <p>Customers</p>
           </div>
         </div>

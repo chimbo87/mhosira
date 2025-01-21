@@ -53,12 +53,12 @@
   justify-content: center;
   border: 1px solid #dcdcdc;
   border-radius: 4px;
-background-color: #dcdcdc38;
+background-color: transparent;
 }
 #team-card img{
 width: 100%;
-height: auto;
-object-fit: cover;
+height: 200px;
+object-fit: contain;
 }
 #team-card p{
 margin: 5px;
