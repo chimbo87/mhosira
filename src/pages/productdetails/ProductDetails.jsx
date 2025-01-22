@@ -160,10 +160,10 @@ function ProductDetails() {
 
         <p id="product-brand">{product.productName}</p>
         <div className="price-container">
-          {product.oldPrice && product.oldPrice > product.price && (
+          {/* {product.oldPrice && product.oldPrice > product.price && (
             <p id="product-old-price">Was ${product.oldPrice.toFixed(2)}</p>
-          )}
-          <p id="product-price">${product.price.toFixed(2)}</p>
+          )} */}
+          <p id="product-price"> From ${product.price.toFixed(2)}</p>
         
         </div>
         <small>{product.description}</small>
