@@ -292,7 +292,7 @@ function Gallery() {
       productName: "Samsung S9 LCD",
       price: 55.00,
       oldPrice: 380.0,
-      category: "phone",
+      category: "lcd",
       description:
         "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta est dolorum ut quis debitis in reiciendis! Nostrum sit repudiandae, vel officia nisi cupiditate sed sunt suscipit voluptatibus quaerat ab iusto!",
     },
@@ -303,7 +303,7 @@ function Gallery() {
       productName: "T-shirt Printing Machine",
       price: 320.5,
       oldPrice: 380.0,
-      category: "industrial machines",
+      category: "lcd",
       description:
         "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta est dolorum ut quis debitis in reiciendis! Nostrum sit repudiandae, vel officia nisi cupiditate sed sunt suscipit voluptatibus quaerat ab iusto!",
     },
@@ -314,7 +314,7 @@ function Gallery() {
       productName: "T-shirt Printing Machine",
       price: 320.5,
       oldPrice: 380.0,
-      category: "industrial machines",
+      category: "lcd",
       description:
         "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta est dolorum ut quis debitis in reiciendis! Nostrum sit repudiandae, vel officia nisi cupiditate sed sunt suscipit voluptatibus quaerat ab iusto!",
     },
@@ -325,7 +325,7 @@ function Gallery() {
       productName: "T-shirt Printing Machine",
       price: 320.5,
       oldPrice: 380.0,
-      category: "industrial machines",
+      category: "lcd",
       description:
         "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta est dolorum ut quis debitis in reiciendis! Nostrum sit repudiandae, vel officia nisi cupiditate sed sunt suscipit voluptatibus quaerat ab iusto!",
     },
@@ -336,7 +336,7 @@ function Gallery() {
       productName: "T-shirt Printing Machine",
       price: 320.5,
       oldPrice: 380.0,
-      category: "industrial machines",
+      category: "lcd",
       description:
         "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta est dolorum ut quis debitis in reiciendis! Nostrum sit repudiandae, vel officia nisi cupiditate sed sunt suscipit voluptatibus quaerat ab iusto!",
     },
@@ -347,7 +347,7 @@ function Gallery() {
       productName: "T-shirt Printing Machine",
       price: 320.5,
       oldPrice: 380.0,
-      category: "industrial machines",
+      category: "lcd",
       description:
         "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta est dolorum ut quis debitis in reiciendis! Nostrum sit repudiandae, vel officia nisi cupiditate sed sunt suscipit voluptatibus quaerat ab iusto!",
     },
@@ -358,7 +358,7 @@ function Gallery() {
       productName: "T-shirt Printing Machine",
       price: 320.5,
       oldPrice: 380.0,
-      category: "industrial machines",
+      category: "lcd",
       description:
         "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta est dolorum ut quis debitis in reiciendis! Nostrum sit repudiandae, vel officia nisi cupiditate sed sunt suscipit voluptatibus quaerat ab iusto!",
     },
@@ -369,7 +369,7 @@ function Gallery() {
       productName: "T-shirt Printing Machine",
       price: 320.5,
       oldPrice: 380.0,
-      category: "industrial machines",
+      category: "lcd",
       description:
         "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta est dolorum ut quis debitis in reiciendis! Nostrum sit repudiandae, vel officia nisi cupiditate sed sunt suscipit voluptatibus quaerat ab iusto!",
     },
@@ -380,7 +380,7 @@ function Gallery() {
       productName: "T-shirt Printing Machine",
       price: 320.5,
       oldPrice: 380.0,
-      category: "industrial machines",
+      category: "lcd",
       description:
         "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta est dolorum ut quis debitis in reiciendis! Nostrum sit repudiandae, vel officia nisi cupiditate sed sunt suscipit voluptatibus quaerat ab iusto!",
     },
@@ -394,7 +394,7 @@ function Gallery() {
       productName: "T-shirt Printing Machine",
       price: 320.5,
       oldPrice: 380.0,
-      category: "industrial machines",
+      category: "lcd",
       description:
         "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta est dolorum ut quis debitis in reiciendis! Nostrum sit repudiandae, vel officia nisi cupiditate sed sunt suscipit voluptatibus quaerat ab iusto!",
     },
@@ -405,7 +405,7 @@ function Gallery() {
       productName: "T-shirt Printing Machine",
       price: 320.5,
       oldPrice: 380.0,
-      category: "industrial machines",
+      category: "lcd",
       description:
         "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta est dolorum ut quis debitis in reiciendis! Nostrum sit repudiandae, vel officia nisi cupiditate sed sunt suscipit voluptatibus quaerat ab iusto!",
     },
@@ -416,7 +416,7 @@ function Gallery() {
       productName: "T-shirt Printing Machine",
       price: 320.5,
       oldPrice: 380.0,
-      category: "industrial machines",
+      category: "lcd",
       description:
         "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta est dolorum ut quis debitis in reiciendis! Nostrum sit repudiandae, vel officia nisi cupiditate sed sunt suscipit voluptatibus quaerat ab iusto!",
     },
@@ -427,7 +427,7 @@ function Gallery() {
       productName: "T-shirt Printing Machine",
       price: 320.5,
       oldPrice: 380.0,
-      category: "industrial machines",
+      category: "lcd",
       description:
         "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta est dolorum ut quis debitis in reiciendis! Nostrum sit repudiandae, vel officia nisi cupiditate sed sunt suscipit voluptatibus quaerat ab iusto!",
     },
@@ -438,7 +438,7 @@ function Gallery() {
       productName: "T-shirt Printing Machine",
       price: 320.5,
       oldPrice: 380.0,
-      category: "industrial machines",
+      category: "lcd",
       description:
         "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta est dolorum ut quis debitis in reiciendis! Nostrum sit repudiandae, vel officia nisi cupiditate sed sunt suscipit voluptatibus quaerat ab iusto!",
     },
@@ -449,7 +449,7 @@ function Gallery() {
       productName: "T-shirt Printing Machine",
       price: 320.5,
       oldPrice: 380.0,
-      category: "industrial machines",
+      category: "lcd",
       description:
         "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta est dolorum ut quis debitis in reiciendis! Nostrum sit repudiandae, vel officia nisi cupiditate sed sunt suscipit voluptatibus quaerat ab iusto!",
     },
@@ -460,7 +460,7 @@ function Gallery() {
       productName: "T-shirt Printing Machine",
       price: 320.5,
       oldPrice: 380.0,
-      category: "industrial machines",
+      category: "lcd",
       description:
         "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta est dolorum ut quis debitis in reiciendis! Nostrum sit repudiandae, vel officia nisi cupiditate sed sunt suscipit voluptatibus quaerat ab iusto!",
     },
@@ -471,7 +471,7 @@ function Gallery() {
       productName: "T-shirt Printing Machine",
       price: 320.5,
       oldPrice: 380.0,
-      category: "industrial machines",
+      category: "lcd",
       description:
         "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta est dolorum ut quis debitis in reiciendis! Nostrum sit repudiandae, vel officia nisi cupiditate sed sunt suscipit voluptatibus quaerat ab iusto!",
     },
@@ -482,7 +482,7 @@ function Gallery() {
       productName: "T-shirt Printing Machine",
       price: 320.5,
       oldPrice: 380.0,
-      category: "industrial machines",
+      category: "lcd",
       description:
         "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta est dolorum ut quis debitis in reiciendis! Nostrum sit repudiandae, vel officia nisi cupiditate sed sunt suscipit voluptatibus quaerat ab iusto!",
     },
@@ -493,7 +493,7 @@ function Gallery() {
       productName: "T-shirt Printing Machine",
       price: 320.5,
       oldPrice: 380.0,
-      category: "industrial machines",
+      category: "lcd",
       description:
         "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta est dolorum ut quis debitis in reiciendis! Nostrum sit repudiandae, vel officia nisi cupiditate sed sunt suscipit voluptatibus quaerat ab iusto!",
     },
@@ -504,7 +504,7 @@ function Gallery() {
       productName: "T-shirt Printing Machine",
       price: 320.5,
       oldPrice: 380.0,
-      category: "industrial machines",
+      category: "lcd",
       description:
         "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta est dolorum ut quis debitis in reiciendis! Nostrum sit repudiandae, vel officia nisi cupiditate sed sunt suscipit voluptatibus quaerat ab iusto!",
     },
@@ -515,7 +515,7 @@ function Gallery() {
       productName: "T-shirt Printing Machine",
       price: 320.5,
       oldPrice: 380.0,
-      category: "industrial machines",
+      category: "lcd",
       description:
         "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta est dolorum ut quis debitis in reiciendis! Nostrum sit repudiandae, vel officia nisi cupiditate sed sunt suscipit voluptatibus quaerat ab iusto!",
     },

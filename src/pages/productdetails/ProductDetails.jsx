@@ -37,6 +37,18 @@ function ProductDetails() {
     );
   };
 
+  const handleWhatsAppClick = () => {
+    // Create the message with the product name
+    const message = `Hello MobilelandInvestments, I would like to enquire about ${product.productName}`;
+    // Encode the message for URL
+    const encodedMessage = encodeURIComponent(message);
+    // Open WhatsApp in new tab
+    window.open(
+      `https://wa.me/263773609855?text=${encodedMessage}`,
+      "_blank"
+    );
+  };
+
   return (
     <div className="container" id="product-details-box">
       <div id="product-details-headbtn">
@@ -160,18 +172,11 @@ function ProductDetails() {
 
         <p id="product-brand">{product.productName}</p>
         <div className="price-container">
-          {/* {product.oldPrice && product.oldPrice > product.price && (
-            <p id="product-old-price">Was ${product.oldPrice.toFixed(2)}</p>
-          )} */}
           <p id="product-price"> From ${product.price.toFixed(2)}</p>
-        
         </div>
         <small>{product.description}</small>
-        {/* <div className="product-meta">
-          <p><strong>Category:</strong> {product.category}</p>
-          <p><strong>Product ID:</strong> {product.id}</p>
-        </div> */}
-        <button>Order Now</button>
+
+        <button onClick={handleWhatsAppClick}>Order Now</button>
       </div>
     </div>
   );
