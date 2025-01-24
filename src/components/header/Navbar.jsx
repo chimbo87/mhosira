@@ -35,14 +35,20 @@ function Navbar() {
         <div id="nav-top-box">
           <div id="nav-top-wrap">
             <div id="nav-top-card">
-              <small><MdEmail /> mobilelandx@gmail.com</small>
+              <small>
+                <MdEmail /> mobilelandx@gmail.com
+              </small>
             </div>
             <div id="nav-top-card">
-              <small id="nav-top-cardsmall"><MdLocationPin /> Cnr Cameron & J Moyo, Dubai mall shop #F1</small>
+              <small id="nav-top-cardsmall">
+                <MdLocationPin /> Cnr Cameron & J Moyo, Dubai mall shop #F1
+              </small>
             </div>
             <div id="nav-top-card">
-              <small id="nav-top-cardsmall"><MdCall />  +26377 360 9855 / </small> 
-              <small id="nav-top-cardsmall">{' '} +26371 367 6303</small>
+              <small id="nav-top-cardsmall">
+                <MdCall /> +26377 360 9855 /{" "}
+              </small>
+              <small id="nav-top-cardsmall"> +26371 367 6303</small>
             </div>
             <div id="nav-top-card">
               <small>

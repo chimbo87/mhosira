@@ -283,36 +283,36 @@ function Gallery() {
       oldPrice: 380.0,
       category: "lcd",
       description:
-        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta est dolorum ut quis debitis in reiciendis! Nostrum sit repudiandae, vel officia nisi cupiditate sed sunt suscipit voluptatibus quaerat ab iusto!",
+        "The Samsung S8 LCD delivers vibrant colors and sharp clarity, restoring your device’s display to its original brilliance with high-definition visuals and touch sensitivity.",
     },
     {
       id: 21,
       image: shop37,
       images: [shop38, shop37],
+      productName: "Samsung S10 LCD",
+      price: 70.00,
+      oldPrice: 380.0,
+      category: "lcd",
+      description:
+        "The Samsung S10 LCD delivers vibrant colors and sharp clarity, restoring your device’s display to its original brilliance with high-definition visuals and touch sensitivity.",
+    },
+    {
+      id: 22,
+      image: shop28,
+      images: [shop31,shop28],
       productName: "Samsung S9 LCD",
       price: 55.00,
       oldPrice: 380.0,
       category: "lcd",
       description:
-        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta est dolorum ut quis debitis in reiciendis! Nostrum sit repudiandae, vel officia nisi cupiditate sed sunt suscipit voluptatibus quaerat ab iusto!",
-    },
-    {
-      id: 22,
-      image: shop28,
-      images: [shop10, shop12],
-      productName: "T-shirt Printing Machine",
-      price: 320.5,
-      oldPrice: 380.0,
-      category: "lcd",
-      description:
-        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta est dolorum ut quis debitis in reiciendis! Nostrum sit repudiandae, vel officia nisi cupiditate sed sunt suscipit voluptatibus quaerat ab iusto!",
+        "The Samsung S9 LCD delivers vibrant colors and sharp clarity, restoring your device’s display to its original brilliance with high-definition visuals and touch sensitivity.",
     },
     {
       id: 23,
       image: shop29,
       images: [shop10, shop12],
-      productName: "T-shirt Printing Machine",
-      price: 320.5,
+      productName: "Samsung S10+ LCD",
+      price: 85.00,
       oldPrice: 380.0,
       category: "lcd",
       description:
@@ -322,7 +322,7 @@ function Gallery() {
       id: 24,
       image: shop30,
       images: [shop10, shop12],
-      productName: "T-shirt Printing Machine",
+      productName: "Samsung S20 LCD",
       price: 320.5,
       oldPrice: 380.0,
       category: "lcd",
@@ -333,8 +333,8 @@ function Gallery() {
       id: 25,
       image: shop31,
       images: [shop10, shop12],
-      productName: "T-shirt Printing Machine",
-      price: 320.5,
+      productName: "Samsung S20+ LCD",
+      price: 80.00,
       oldPrice: 380.0,
       category: "lcd",
       description:
@@ -344,8 +344,8 @@ function Gallery() {
       id: 26,
       image: shop32,
       images: [shop10, shop12],
-      productName: "T-shirt Printing Machine",
-      price: 320.5,
+      productName: "Samsung S20 ultra LCDs",
+      price: 85.00,
       oldPrice: 380.0,
       category: "lcd",
       description:
@@ -355,8 +355,8 @@ function Gallery() {
       id: 27,
       image: shop33,
       images: [shop10, shop12],
-      productName: "T-shirt Printing Machine",
-      price: 320.5,
+      productName: "Samsung S21 LCDs",
+      price: 70.00,
       oldPrice: 380.0,
       category: "lcd",
       description:
@@ -366,8 +366,8 @@ function Gallery() {
       id: 28,
       image: shop34,
       images: [shop10, shop12],
-      productName: "T-shirt Printing Machine",
-      price: 320.5,
+      productName: "Samsung S21+ LCDs",
+      price: 75.00,
       oldPrice: 380.0,
       category: "lcd",
       description:
@@ -377,8 +377,8 @@ function Gallery() {
       id: 29,
       image: shop35,
       images: [shop10, shop12],
-      productName: "T-shirt Printing Machine",
-      price: 320.5,
+      productName: "Samsung S22 LCDs",
+      price: 100,
       oldPrice: 380.0,
       category: "lcd",
       description:
@@ -391,8 +391,8 @@ function Gallery() {
       id: 30,
       image: shop35,
       images: [shop10, shop12],
-      productName: "T-shirt Printing Machine",
-      price: 320.5,
+      productName: "Samsung note 20 LCDs",
+      price: 80.00,
       oldPrice: 380.0,
       category: "lcd",
       description:
@@ -402,21 +402,30 @@ function Gallery() {
       id: 31,
       image: shop36,
       images: [shop10, shop12],
-      productName: "T-shirt Printing Machine",
-      price: 320.5,
+      productName: "Samsung S23 ultra LCDs",
+      price: 130.00,
       oldPrice: 380.0,
       category: "lcd",
       description:
         "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta est dolorum ut quis debitis in reiciendis! Nostrum sit repudiandae, vel officia nisi cupiditate sed sunt suscipit voluptatibus quaerat ab iusto!",
     },
+
+
+
+
+
+
+
+
+
     {
       id: 32,
       image: shop37,
       images: [shop10, shop12],
-      productName: "T-shirt Printing Machine",
+      productName: "Samsung Z fold 1",
       price: 320.5,
       oldPrice: 380.0,
-      category: "lcd",
+      category: "phone",
       description:
         "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta est dolorum ut quis debitis in reiciendis! Nostrum sit repudiandae, vel officia nisi cupiditate sed sunt suscipit voluptatibus quaerat ab iusto!",
     },
@@ -424,10 +433,10 @@ function Gallery() {
       id: 33,
       image: shop38,
       images: [shop10, shop12],
-      productName: "T-shirt Printing Machine",
+      productName: "Samsung Z fold 2",
       price: 320.5,
       oldPrice: 380.0,
-      category: "lcd",
+      category: "phone",
       description:
         "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta est dolorum ut quis debitis in reiciendis! Nostrum sit repudiandae, vel officia nisi cupiditate sed sunt suscipit voluptatibus quaerat ab iusto!",
     },
@@ -435,10 +444,10 @@ function Gallery() {
       id: 34,
       image: shop39,
       images: [shop10, shop12],
-      productName: "T-shirt Printing Machine",
+      productName: "Samsung Z fold 3",
       price: 320.5,
       oldPrice: 380.0,
-      category: "lcd",
+      category: "phone",
       description:
         "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta est dolorum ut quis debitis in reiciendis! Nostrum sit repudiandae, vel officia nisi cupiditate sed sunt suscipit voluptatibus quaerat ab iusto!",
     },
@@ -446,10 +455,10 @@ function Gallery() {
       id: 35,
       image: shop40,
       images: [shop10, shop12],
-      productName: "T-shirt Printing Machine",
+      productName: "Samsung Z fold 4",
       price: 320.5,
       oldPrice: 380.0,
-      category: "lcd",
+      category: "phone",
       description:
         "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta est dolorum ut quis debitis in reiciendis! Nostrum sit repudiandae, vel officia nisi cupiditate sed sunt suscipit voluptatibus quaerat ab iusto!",
     },
@@ -457,68 +466,16 @@ function Gallery() {
       id: 36,
       image: shop41,
       images: [shop10, shop12],
-      productName: "T-shirt Printing Machine",
+      productName: "Samsung Z fold 5",
       price: 320.5,
       oldPrice: 380.0,
-      category: "lcd",
+      category: "phone",
       description:
         "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta est dolorum ut quis debitis in reiciendis! Nostrum sit repudiandae, vel officia nisi cupiditate sed sunt suscipit voluptatibus quaerat ab iusto!",
     },
-    {
-      id: 37,
-      image: shop42,
-      images: [shop10, shop12],
-      productName: "T-shirt Printing Machine",
-      price: 320.5,
-      oldPrice: 380.0,
-      category: "lcd",
-      description:
-        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta est dolorum ut quis debitis in reiciendis! Nostrum sit repudiandae, vel officia nisi cupiditate sed sunt suscipit voluptatibus quaerat ab iusto!",
-    },
-    {
-      id: 38,
-      image: shop43,
-      images: [shop10, shop12],
-      productName: "T-shirt Printing Machine",
-      price: 320.5,
-      oldPrice: 380.0,
-      category: "lcd",
-      description:
-        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta est dolorum ut quis debitis in reiciendis! Nostrum sit repudiandae, vel officia nisi cupiditate sed sunt suscipit voluptatibus quaerat ab iusto!",
-    },
-    {
-      id: 39,
-      image: shop44,
-      images: [shop10, shop12],
-      productName: "T-shirt Printing Machine",
-      price: 320.5,
-      oldPrice: 380.0,
-      category: "lcd",
-      description:
-        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta est dolorum ut quis debitis in reiciendis! Nostrum sit repudiandae, vel officia nisi cupiditate sed sunt suscipit voluptatibus quaerat ab iusto!",
-    },
-    {
-      id: 40,
-      image: shop45,
-      images: [shop10, shop12],
-      productName: "T-shirt Printing Machine",
-      price: 320.5,
-      oldPrice: 380.0,
-      category: "lcd",
-      description:
-        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta est dolorum ut quis debitis in reiciendis! Nostrum sit repudiandae, vel officia nisi cupiditate sed sunt suscipit voluptatibus quaerat ab iusto!",
-    },
-    {
-      id: 41,
-      image: shop46,
-      images: [shop10, shop12],
-      productName: "T-shirt Printing Machine",
-      price: 320.5,
-      oldPrice: 380.0,
-      category: "lcd",
-      description:
-        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta est dolorum ut quis debitis in reiciendis! Nostrum sit repudiandae, vel officia nisi cupiditate sed sunt suscipit voluptatibus quaerat ab iusto!",
-    },
+   
+   
+  
   ];
   const handleButtonClick = (buttonId, category) => {
     setActiveButton(buttonId);
