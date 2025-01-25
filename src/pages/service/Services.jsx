@@ -8,7 +8,6 @@ import { useNavigate } from "react-router-dom";
 import { FaArrowRightLong } from "react-icons/fa6";
 import { IoArrowForward } from "react-icons/io5";
 
-
 function Services() {
   const navigate = useNavigate();
 
@@ -29,7 +28,14 @@ function Services() {
                 - we fix it all with quality parts and same-day service in most
                 cases
               </p>
-              <button>
+              <button
+                onClick={() =>
+                  window.open(
+                    "https://wa.me/263773609855?text=Hello%20MobilelandInvestments,%20I%20would%20like%20to%20enquire%20about%20your%20services",
+                    "_blank"
+                  )
+                }
+              >
                 Get A Quote <FaArrowRightLong />
               </button>
             </div>
@@ -82,12 +88,14 @@ function Services() {
             technicians have successfully restored over 3,000 devices, and our
             trusted freight service ensures safe delivery from China.
           </h4>
-          <button  onClick={() =>
-                window.open(
-                  "https://wa.me/263773609855?text=Hello%20MobilelandInvestments,%20I%20would%20like%20to%20enquire%20about%20your%20services",
-                  "_blank"
-                )
-              }>
+          <button
+            onClick={() =>
+              window.open(
+                "https://wa.me/263773609855?text=Hello%20MobilelandInvestments,%20I%20would%20like%20to%20enquire%20about%20your%20services",
+                "_blank"
+              )
+            }
+          >
             Send Us Message <IoArrowForward />
           </button>
         </div>
@@ -133,8 +141,6 @@ function Services() {
           <img src={banner03} alt="banner" />
         </div>
       </div>
-
-    
     </>
   );
 }

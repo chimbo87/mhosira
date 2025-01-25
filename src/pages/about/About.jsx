@@ -21,7 +21,7 @@ function About() {
           <h3>
             From quick repairs to quality parts, we deliver expert service with
             a personal touch. Our certified technicians have successfully
-            restored over 3,000 devices, giving your gadgets the care they
+            restored over 20,000 devices, giving your gadgets the care they
             deserve at prices you can trust.
           </h3>
         </div>

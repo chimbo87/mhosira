@@ -66,11 +66,17 @@ function Footer() {
         </div>
       </div>
       <div id="footer-icons-cards" className="container">
-        <div>
-          <FiFacebook id="footer-icon" />
-          <FaInstagram id="footer-icon" />
-          <RiTiktokLine id="footer-icon" />
-          <FaWhatsapp id="footer-icon" />
+      <div >
+          <a href="https://www.facebook.com/Mobileland.zw" target="_blank" rel="noopener noreferrer">
+            <FiFacebook id="footer-icon" />
+          </a>
+          <a href="https://www.instagram.com/mobileland_investments?igsh=MWUyMWd6d2ZkYWRlZQ==" target="_blank" rel="noopener noreferrer">
+            <FaInstagram id="footer-icon" />
+          </a>
+          {/* <RiTiktokLine id="footer-icon" /> */}
+          <a href="https://wa.me/263773609855?text=Hello%20MobilelandInvestments,%20I%20would%20like%20to%20enquire%20about%20your%20services" target="_blank" rel="noopener noreferrer">
+            <FaWhatsapp id="footer-icon" />
+          </a>
         </div>
         <small style={{ color: "#faebd7" }}>
           &copy; Mobileland 2025 Crafted by:
@@ -83,7 +89,7 @@ function Footer() {
               border: "1px solid #faebd7",
               backgroundColor: "#faebd7",
               textDecoration: "none",
-              borderRadius:"2px"
+              borderRadius: "2px",
             }}
           >
             chimbo

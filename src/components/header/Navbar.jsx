@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 import "./Navbar.css";
 import { FaWhatsapp } from "react-icons/fa";
-import { IoLogoInstagram } from "react-icons/io5";
+import { FaInstagram } from "react-icons/fa";
 import userlogo from "../../assets/mobilelogo.png";
 import { useNavigate, useLocation } from "react-router-dom";
+
 import { MdLocationPin } from "react-icons/md";
 import { MdEmail } from "react-icons/md";
 import { FiFacebook } from "react-icons/fi";
@@ -52,7 +53,27 @@ function Navbar() {
             </div>
             <div id="nav-top-card">
               <small>
-                <IoLogoInstagram /> <FiFacebook /> <TbBrandTiktok />
+                <a
+                  href="https://www.instagram.com/mobileland_investments?igsh=MWUyMWd6d2ZkYWRlZQ=="
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaInstagram style={{color:"green"}}/>
+                </a>{" "}
+                <a
+                  href="https://www.facebook.com/Mobileland.zw"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FiFacebook style={{color:"green"}}/>
+                </a>{" "}
+                <a
+                  href="https://wa.me/263773609855?text=Hello%20MobilelandInvestments,%20I%20would%20like%20to%20enquire%20about%20your%20services"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaWhatsapp style={{color:"green"}}/>
+                </a>
               </small>
             </div>
           </div>

@@ -62,6 +62,12 @@ import shop53 from "../../assets/products/product31.jpeg";
 import shop54 from "../../assets/products/product32.jpeg";
 import shop55 from "../../assets/products/product33.jpeg";
 import shop56 from "../../assets/products/product34.jpeg";
+import shop57 from "../../assets/products/fold01.jpeg";
+import shop58 from "../../assets/products/fold02.jpeg";
+import shop59 from "../../assets/products/fold03.jpeg";
+import shop60 from "../../assets/products/fold04.jpeg";
+import shop61 from "../../assets/products/fold05.jpeg";
+import shop62 from "../../assets/products/fold06.jpeg";
 
 function Gallery() {
   const navigate = useNavigate();
@@ -95,7 +101,7 @@ function Gallery() {
       oldPrice: 300.0,
       category: "phone",
       description:
-        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta est dolorum ut quis debitis in reiciendis! Nostrum sit repudiandae, vel officia nisi cupiditate sed sunt suscipit voluptatibus quaerat ab iusto!",
+        "Experience the future of mobile technology with the Z Fold series. Unfold a stunning display, seamless multitasking, and a sleek design that fits perfectly in your pocket. Elevate your smartphone experience like never before",
     },
     {
       id: 1,
@@ -119,39 +125,39 @@ function Gallery() {
       description:
         "The Vinyl Cutter & Plotter delivers precise, clean cuts for various materials, ideal for creating custom designs, signs, and decals with professional-grade accuracy",
     },
-    {
-      id: 2,
-      image: shop02,
-      images: [shop02, shop03],
-      productName: "Sony EarPhones",
-      price: 5.99,
-      oldPrice: 12.0,
-      category: "earphones",
-      description:
-        "Enjoy seamless sound with our Wireless Earphones, offering high-quality audio, long battery life, and a tangle-free experience for ultimate convenience on the go. Our Non-Wireless Earphones provide clear, crisp sound with a reliable wired connection, perfect for users who prefer a stable and uninterrupted listening experience.",
-    },
-    {
-      id: 3,
-      image: shop03,
-      images: [shop03, shop04, shop05, shop06],
-      productName: "All Brands Wireless Earphones",
-      price: 7.00,
-      oldPrice: 20.0,
-      category: "earphones",
-      description:
-        "Our Non-Wireless Earphones provide clear, crisp sound with a reliable wired connection, perfect for users who prefer a stable and uninterrupted listening experience.",
-    },
-    {
-      id: 4,
-      image: shop04,
-      images: [shop04, shop00],
-      productName: " Wireless HeadPhones",
-      price: 15.99,
-      oldPrice: 10.0,
-      category: "earphones",
-      description:
-        "Experience superior sound quality and freedom with our Wireless Headphones, offering long-lasting battery life and a comfortable fit for an immersive listening experience",
-    },
+    // {
+    //   id: 2,
+    //   image: shop02,
+    //   images: [shop02, shop03],
+    //   productName: "Sony EarPhones",
+    //   price: 5.99,
+    //   oldPrice: 12.0,
+    //   category: "earphones",
+    //   description:
+    //     "Enjoy seamless sound with our Wireless Earphones, offering high-quality audio, long battery life, and a tangle-free experience for ultimate convenience on the go. Our Non-Wireless Earphones provide clear, crisp sound with a reliable wired connection, perfect for users who prefer a stable and uninterrupted listening experience.",
+    // },
+    // {
+    //   id: 3,
+    //   image: shop03,
+    //   images: [shop03, shop04, shop05, shop06],
+    //   productName: "All Brands Wireless Earphones",
+    //   price: 7.00,
+    //   oldPrice: 20.0,
+    //   category: "earphones",
+    //   description:
+    //     "Our Non-Wireless Earphones provide clear, crisp sound with a reliable wired connection, perfect for users who prefer a stable and uninterrupted listening experience.",
+    // },
+    // {
+    //   id: 4,
+    //   image: shop04,
+    //   images: [shop04, shop00],
+    //   productName: " Wireless HeadPhones",
+    //   price: 15.99,
+    //   oldPrice: 10.0,
+    //   category: "earphones",
+    //   description:
+    //     "Experience superior sound quality and freedom with our Wireless Headphones, offering long-lasting battery life and a comfortable fit for an immersive listening experience",
+    // },
     // {
     //   id: 5,
     //   image: shop05,
@@ -310,104 +316,104 @@ function Gallery() {
     {
       id: 23,
       image: shop29,
-      images: [shop10, shop12],
+      images: [ shop29,  shop34, shop32],
       productName: "Samsung S10+ LCD",
       price: 85.00,
       oldPrice: 380.0,
       category: "lcd",
       description:
-        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta est dolorum ut quis debitis in reiciendis! Nostrum sit repudiandae, vel officia nisi cupiditate sed sunt suscipit voluptatibus quaerat ab iusto!",
+        "Upgrade your device with a high-quality LCD screen replacement, offering vibrant display clarity and durability. Restore your phone to its best with our reliable, easy-to-install screens",
     },
     {
       id: 24,
-      image: shop30,
-      images: [shop10, shop12],
+      image: shop34,
+      images: [ shop30,  shop31, shop32],
       productName: "Samsung S20 LCD",
       price: 320.5,
       oldPrice: 380.0,
       category: "lcd",
       description:
-        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta est dolorum ut quis debitis in reiciendis! Nostrum sit repudiandae, vel officia nisi cupiditate sed sunt suscipit voluptatibus quaerat ab iusto!",
+        "Upgrade your device with a high-quality LCD screen replacement, offering vibrant display clarity and durability. Restore your phone to its best with our reliable, easy-to-install screens",
     },
     {
       id: 25,
-      image: shop31,
-      images: [shop10, shop12],
+      image: shop35,
+      images: [ shop30,  shop31, shop32],
       productName: "Samsung S20+ LCD",
       price: 80.00,
       oldPrice: 380.0,
       category: "lcd",
       description:
-        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta est dolorum ut quis debitis in reiciendis! Nostrum sit repudiandae, vel officia nisi cupiditate sed sunt suscipit voluptatibus quaerat ab iusto!",
+        "Upgrade your device with a high-quality LCD screen replacement, offering vibrant display clarity and durability. Restore your phone to its best with our reliable, easy-to-install screens",
     },
     {
       id: 26,
-      image: shop32,
-      images: [shop10, shop12],
+      image: shop35,
+      images: [ shop35,  shop31, shop32],
       productName: "Samsung S20 ultra LCDs",
       price: 85.00,
       oldPrice: 380.0,
       category: "lcd",
       description:
-        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta est dolorum ut quis debitis in reiciendis! Nostrum sit repudiandae, vel officia nisi cupiditate sed sunt suscipit voluptatibus quaerat ab iusto!",
+        "Upgrade your device with a high-quality LCD screen replacement, offering vibrant display clarity and durability. Restore your phone to its best with our reliable, easy-to-install screens",
     },
     {
       id: 27,
-      image: shop33,
-      images: [shop10, shop12],
+      image: shop35,
+      images: [ shop31,  shop35, shop32],
       productName: "Samsung S21 LCDs",
       price: 70.00,
       oldPrice: 380.0,
       category: "lcd",
       description:
-        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta est dolorum ut quis debitis in reiciendis! Nostrum sit repudiandae, vel officia nisi cupiditate sed sunt suscipit voluptatibus quaerat ab iusto!",
+        "Upgrade your device with a high-quality LCD screen replacement, offering vibrant display clarity and durability. Restore your phone to its best with our reliable, easy-to-install screens",
     },
     {
       id: 28,
-      image: shop34,
-      images: [shop10, shop12],
+      image: shop30,
+      images: [ shop30,  shop31, shop33],
       productName: "Samsung S21+ LCDs",
       price: 75.00,
       oldPrice: 380.0,
       category: "lcd",
       description:
-        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta est dolorum ut quis debitis in reiciendis! Nostrum sit repudiandae, vel officia nisi cupiditate sed sunt suscipit voluptatibus quaerat ab iusto!",
+        "Upgrade your device with a high-quality LCD screen replacement, offering vibrant display clarity and durability. Restore your phone to its best with our reliable, easy-to-install screens",
     },
     {
       id: 29,
       image: shop35,
-      images: [shop10, shop12],
+      images: [ shop30,  shop32, shop32],
       productName: "Samsung S22 LCDs",
       price: 100,
       oldPrice: 380.0,
       category: "lcd",
       description:
-        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta est dolorum ut quis debitis in reiciendis! Nostrum sit repudiandae, vel officia nisi cupiditate sed sunt suscipit voluptatibus quaerat ab iusto!",
+        "Upgrade your device with a high-quality LCD screen replacement, offering vibrant display clarity and durability. Restore your phone to its best with our reliable, easy-to-install screens",
     },
 
     //here
 
     {
       id: 30,
-      image: shop35,
-      images: [shop10, shop12],
+      image: shop32,
+      images: [ shop30,  shop31, shop30],
       productName: "Samsung note 20 LCDs",
       price: 80.00,
       oldPrice: 380.0,
       category: "lcd",
       description:
-        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta est dolorum ut quis debitis in reiciendis! Nostrum sit repudiandae, vel officia nisi cupiditate sed sunt suscipit voluptatibus quaerat ab iusto!",
+        "Upgrade your device with a high-quality LCD screen replacement, offering vibrant display clarity and durability. Restore your phone to its best with our reliable, easy-to-install screens",
     },
     {
       id: 31,
-      image: shop36,
-      images: [shop10, shop12],
+      image: shop35,
+      images: [ shop32,  shop32, shop30],
       productName: "Samsung S23 ultra LCDs",
       price: 130.00,
       oldPrice: 380.0,
       category: "lcd",
       description:
-        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta est dolorum ut quis debitis in reiciendis! Nostrum sit repudiandae, vel officia nisi cupiditate sed sunt suscipit voluptatibus quaerat ab iusto!",
+        "Upgrade your device with a high-quality LCD screen replacement, offering vibrant display clarity and durability. Restore your phone to its best with our reliable, easy-to-install screens",
     },
 
 
@@ -420,58 +426,58 @@ function Gallery() {
 
     {
       id: 32,
-      image: shop37,
-      images: [shop10, shop12],
+      image: shop57,
+      images: [ shop57,  shop59, shop58],
       productName: "Samsung Z fold 1",
       price: 320.5,
       oldPrice: 380.0,
       category: "phone",
       description:
-        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta est dolorum ut quis debitis in reiciendis! Nostrum sit repudiandae, vel officia nisi cupiditate sed sunt suscipit voluptatibus quaerat ab iusto!",
+        "Experience the future of mobile technology with the Z Fold series. Unfold a stunning display, seamless multitasking, and a sleek design that fits perfectly in your pocket. Elevate your smartphone experience like never before",
     },
     {
       id: 33,
-      image: shop38,
-      images: [shop10, shop12],
+      image: shop59,
+      images: [ shop57,  shop60, shop58],
       productName: "Samsung Z fold 2",
       price: 320.5,
       oldPrice: 380.0,
       category: "phone",
       description:
-        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta est dolorum ut quis debitis in reiciendis! Nostrum sit repudiandae, vel officia nisi cupiditate sed sunt suscipit voluptatibus quaerat ab iusto!",
+        "Experience the future of mobile technology with the Z Fold series. Unfold a stunning display, seamless multitasking, and a sleek design that fits perfectly in your pocket. Elevate your smartphone experience like never before",
     },
     {
       id: 34,
-      image: shop39,
-      images: [shop10, shop12],
+      image: shop60,
+      images: [ shop57,  shop59, shop61],
       productName: "Samsung Z fold 3",
       price: 320.5,
       oldPrice: 380.0,
       category: "phone",
       description:
-        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta est dolorum ut quis debitis in reiciendis! Nostrum sit repudiandae, vel officia nisi cupiditate sed sunt suscipit voluptatibus quaerat ab iusto!",
+        "Experience the future of mobile technology with the Z Fold series. Unfold a stunning display, seamless multitasking, and a sleek design that fits perfectly in your pocket. Elevate your smartphone experience like never before",
     },
     {
       id: 35,
-      image: shop40,
-      images: [shop10, shop12],
+      image: shop58,
+      images: [ shop60,  shop59, shop61],
       productName: "Samsung Z fold 4",
       price: 320.5,
       oldPrice: 380.0,
       category: "phone",
       description:
-        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta est dolorum ut quis debitis in reiciendis! Nostrum sit repudiandae, vel officia nisi cupiditate sed sunt suscipit voluptatibus quaerat ab iusto!",
+        "Experience the future of mobile technology with the Z Fold series. Unfold a stunning display, seamless multitasking, and a sleek design that fits perfectly in your pocket. Elevate your smartphone experience like never before",
     },
     {
       id: 36,
-      image: shop41,
-      images: [shop10, shop12],
+      image: shop59,
+      images: [ shop59,  shop61, shop58],
       productName: "Samsung Z fold 5",
       price: 320.5,
       oldPrice: 380.0,
       category: "phone",
       description:
-        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta est dolorum ut quis debitis in reiciendis! Nostrum sit repudiandae, vel officia nisi cupiditate sed sunt suscipit voluptatibus quaerat ab iusto!",
+        "Experience the future of mobile technology with the Z Fold series. Unfold a stunning display, seamless multitasking, and a sleek design that fits perfectly in your pocket. Elevate your smartphone experience like never before",
     },
    
    
@@ -553,24 +559,24 @@ function Gallery() {
         >
           Phones
         </button>
-        <button
+        {/* <button
           className={activeButton === 3 ? "active" : ""}
           onClick={() => handleButtonClick(3, "charger")}
         >
           Chargers
-        </button>
+        </button> */}
         <button
           className={activeButton === 4 ? "active" : ""}
           onClick={() => handleButtonClick(4, "lcd")}
         >
           LCDs
         </button>
-        <button
+        {/* <button
           className={activeButton === 5 ? "active" : ""}
           onClick={() => handleButtonClick(5, "cover")}
         >
           Phone Covers
-        </button>
+        </button> */}
         <button
           className={activeButton === 6 ? "active" : ""}
           onClick={() => handleButtonClick(6, "industrial machines")}

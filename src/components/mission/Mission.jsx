@@ -22,7 +22,7 @@ function Mission() {
             <p>
               As a trusted leader in mobile device solutions and freight
               services, we've built our reputation on excellence and
-              reliability. Since 2014, we've successfully repaired over 2,000
+              reliability. Since 2007, we've successfully repaired over 20,000
               devices and delivered efficient, cost-effective freight solutions
               to businesses and individuals alike. Our certified technicians
               handle everything from cracked screens to complex motherboard

@@ -1,14 +1,19 @@
 import React from "react";
 import "./Shop.css";
-import shop01 from "../../assets/product01.jpeg";  
-import shop02 from "../../assets/product02.jpeg";  
-import shop03 from "../../assets/product03.jpeg";  
-import shop04 from "../../assets/product04.jpeg";  
-import shop05 from "../../assets/product05.jpeg";  
-import shop06 from "../../assets/product06.jpeg";  
-import shop07 from "../../assets/product07.jpeg";  
-import shop08 from "../../assets/product08.jpeg";  
-import shop09 from "../../assets/product09.jpeg"; 
+import shop01 from "../../assets/products/product24.jpeg";  
+import shop02 from "../../assets/products/product25.jpeg";  
+import shop03 from "../../assets/products/product26.jpeg";  
+import shop04 from "../../assets/products/product27.jpeg";  
+import shop05 from "../../assets/products/product28.jpeg";  
+import shop06 from "../../assets/products/product29.jpeg";  
+import shop07 from "../../assets/products/product30.jpeg";  
+import shop08 from "../../assets/products/product31.jpeg";  
+import shop10 from "../../assets/products/fold02.jpeg"; 
+import shop11 from "../../assets/products/fold03.jpeg"; 
+import shop12 from "../../assets/products/product12.jpeg"; 
+import shop13 from "../../assets/products/product14.jpeg"; 
+import shop14 from "../../assets/products/product13.jpeg"; 
+import shop15 from "../../assets/products/product15.jpeg"; 
 import { useNavigate } from "react-router-dom";
 import { FaArrowRightLong } from "react-icons/fa6";
 // Import Swiper React components
@@ -19,13 +24,14 @@ import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+import { Button } from "antd";
 
 function Shop() {
   const navigate = useNavigate();
   const Products = [
     {
         id: 1,
-        image: shop01,  // Use the imported image
+        image: shop01,  
         productName: "Huawei P30 LCD",
         price: 6.99,
         oldPrice: 8.99,
@@ -89,12 +95,52 @@ function Shop() {
     },
     {
         id: 9,
-        image: shop09,  // Use the imported image
+        image: shop15,  // Use the imported image
         productName: "Huawei Laptop Charger",
         price: 12.50,
         oldPrice: 14.00,
         description: "RGB mechanical keyboard with customizable switches and multimedia controls."
     },
+    {
+      id: 10,
+      image: shop10,  // Use the imported image
+      productName: "Huawei Laptop Charger",
+      price: 12.50,
+      oldPrice: 14.00,
+      description: "RGB mechanical keyboard with customizable switches and multimedia controls."
+  },
+  {
+    id: 11,
+    image: shop11,  // Use the imported image
+    productName: "Huawei Laptop Charger",
+    price: 12.50,
+    oldPrice: 14.00,
+    description: "RGB mechanical keyboard with customizable switches and multimedia controls."
+},
+{
+  id: 12,
+  image: shop12,  // Use the imported image
+  productName: "Huawei Laptop Charger",
+  price: 12.50,
+  oldPrice: 14.00,
+  description: "RGB mechanical keyboard with customizable switches and multimedia controls."
+},
+{
+  id: 13,
+  image: shop13,  // Use the imported image
+  productName: "Huawei Laptop Charger",
+  price: 12.50,
+  oldPrice: 14.00,
+  description: "RGB mechanical keyboard with customizable switches and multimedia controls."
+},
+{
+  id: 14,
+  image: shop14,  // Use the imported image
+  productName: "Huawei Laptop Charger",
+  price: 12.50,
+  oldPrice: 14.00,
+  description: "RGB mechanical keyboard with customizable switches and multimedia controls."
+},
     
 ];
 
@@ -130,13 +176,14 @@ function Shop() {
               }}
             >
               <img src={product.image} alt={product.title} />
-              <p>  {product.productName}</p>
+              <Button>View more</Button>
+              {/* <p>  {product.productName}</p>
               <div id="shop-card-price">
                 <p id="shop-card-priceA"> was ${product.oldPrice.toFixed(2)}</p>
                 <p id="shop-card-priceB">
                 now ${product.price.toFixed(2)}
                 </p>
-              </div>
+              </div> */}
             </div>
           </SwiperSlide>
         ))}
