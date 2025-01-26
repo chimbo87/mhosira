@@ -9,7 +9,7 @@ function Mission() {
   return (
     <div className="container" style={{ marginTop: "20px" }}>
       <div class="row">
-        <div class="col-lg-6 col-md-4">
+        <div class="col-lg-6 col-md-12">
           <div id="mission-card">
             <h5>MOBILELAND REPAIRS</h5>
             <h2>
@@ -48,7 +48,7 @@ function Mission() {
             </button>
           </div>
         </div>
-        <div class="col-lg-6 col-md-4">
+        <div class="col-lg-6 col-md-12">
           <LazyLoad>
             <div id="mission-card">
               <img src={banner01} alt="banner" />

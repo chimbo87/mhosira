@@ -428,8 +428,8 @@ function Gallery() {
       id: 32,
       image: shop57,
       images: [ shop57,  shop59, shop58],
-      productName: "Samsung Z fold 1",
-      price: 320.5,
+      productName: "Samsung Z flip 3",
+      price: 250.5,
       oldPrice: 380.0,
       category: "phone",
       description:
@@ -439,8 +439,8 @@ function Gallery() {
       id: 33,
       image: shop59,
       images: [ shop57,  shop60, shop58],
-      productName: "Samsung Z fold 2",
-      price: 320.5,
+      productName: "Samsung Z flip 4",
+      price: 300.00,
       oldPrice: 380.0,
       category: "phone",
       description:
@@ -450,8 +450,8 @@ function Gallery() {
       id: 34,
       image: shop60,
       images: [ shop57,  shop59, shop61],
-      productName: "Samsung Z fold 3",
-      price: 320.5,
+      productName: "Samsung Z flip 5",
+      price: 550.00,
       oldPrice: 380.0,
       category: "phone",
       description:
@@ -461,8 +461,8 @@ function Gallery() {
       id: 35,
       image: shop58,
       images: [ shop60,  shop59, shop61],
-      productName: "Samsung Z fold 4",
-      price: 320.5,
+      productName: "Samsung Z fold 3",
+      price: 580.00,
       oldPrice: 380.0,
       category: "phone",
       description:
@@ -472,15 +472,25 @@ function Gallery() {
       id: 36,
       image: shop59,
       images: [ shop59,  shop61, shop58],
-      productName: "Samsung Z fold 5",
-      price: 320.5,
+      productName: "Samsung Z fold 4",
+      price: 660.00,
       oldPrice: 380.0,
       category: "phone",
       description:
         "Experience the future of mobile technology with the Z Fold series. Unfold a stunning display, seamless multitasking, and a sleek design that fits perfectly in your pocket. Elevate your smartphone experience like never before",
     },
    
-   
+    {
+      id: 37,
+      image: shop59,
+      images: [ shop59,  shop61, shop58],
+      productName: "Samsung Z fold 5",
+      price: 980.00,
+      oldPrice: 380.0,
+      category: "phone",
+      description:
+        "Experience the future of mobile technology with the Z Fold series. Unfold a stunning display, seamless multitasking, and a sleek design that fits perfectly in your pocket. Elevate your smartphone experience like never before",
+    },
   
   ];
   const handleButtonClick = (buttonId, category) => {

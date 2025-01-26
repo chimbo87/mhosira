@@ -28,7 +28,7 @@ function About() {
       </div>
       <div className="container">
         <div class="row">
-          <div class="col-lg-6 col-md-4">
+          <div class="col-lg-6 col-md-12">
             <div>
               <p>
                 As a trusted leader in mobile device solutions and freight
@@ -41,7 +41,7 @@ function About() {
               </p>
             </div>
           </div>
-          <div class="col-lg-6 col-md-4">
+          <div class="col-lg-6 col-md-12">
             <div>
               <p>
                 We’re committed to transparency, offering upfront pricing and
@@ -59,7 +59,7 @@ function About() {
       </div>
       <div className="container" id="about-page-cardbanner">
         <div class="row">
-          <div class="col-lg-6 col-md-4">
+          <div class="col-lg-6 col-md-12">
             <div id="about-page-cardbannercard">
               <h2>
                 With over 10 years of excellence in mobile device care, we've
@@ -68,7 +68,7 @@ function About() {
               </h2>
             </div>
           </div>
-          <div class="col-lg-6 col-md-4">
+          <div class="col-lg-6 col-md-12">
             <div id="about-page-cardbannercardli">
               <ul>
                 <li>Commitment</li>
@@ -85,7 +85,7 @@ function About() {
       <div className="container" id="about-team-card">
         <h2>Meet Our Team Of Experts</h2>
         <div class="row">
-          <div class="col-lg-4 col-md-4">
+          <div class="col-lg-4 col-md-12">
             <div id="team-card">
               <img src={vector01} alt="person" />
               <h6>Chief Technical Officer</h6>
@@ -97,7 +97,7 @@ function About() {
               <p>Chris Mhosira</p>
             </div>
           </div>
-          <div class="col-lg-4 col-md-4">
+          <div class="col-lg-4 col-md-12">
             <div id="team-card">
               <img src={vector02} alt="person" />
               <h6>Sales Manager</h6>
@@ -109,7 +109,7 @@ function About() {
               <p>Blessed Mhosira</p>
             </div>
           </div>
-          <div class="col-lg-4 col-md-4">
+          <div class="col-lg-4 col-md-12">
             <div id="team-card">
               <img src={vector03} alt="person" />
               <h6>Marketing Manager</h6>
